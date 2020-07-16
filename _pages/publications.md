@@ -4,13 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+(Last updated: 1 January 2019) 
 
 Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
-<ul>
-
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2018]</b> </span>
 
+<ul>
 
 <li style="margin-top:0.5em;text-align:justify">
   Thanh Vu, Dat Quoc Nguyen, Xuan-Son Vu, Dai Quoc Nguyen, Michael Catt and Michael Trenell. <b>2018</b>. 
@@ -38,9 +38,11 @@ Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citatio
   <a href="https://github.com/datquocnguyen/RDRsegmenter" target="_blank">[Code]</a>
 </li>
 
+</ul>
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2017]</b> </span>
 
+<ul>
 
 <li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, Thanh Vu, Dai Quoc Nguyen, Mark Dras and  Mark Johnson. <b>2017</b>. 
   <a href="http://aclweb.org/anthology/U17-1013" target="_blank">From Word Segmentation to POS Tagging for Vietnamese</a>. 
@@ -65,7 +67,7 @@ Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citatio
   <a href="http://www.semantic-web-journal.net/system/files/swj1180.pdf" target="_blank">[.pdf]</a>
 </li>                
 
+</ul>
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[Before 2017]</b> See my Google Scholar profile!</span>
 
-</ul>
