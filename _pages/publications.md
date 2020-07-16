@@ -38,7 +38,9 @@ Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citatio
   <a href="https://github.com/datquocnguyen/RDRsegmenter" target="_blank">[Code]</a>
 </li>
 
+
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2017]</b> </span>
+
 
 <li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, Thanh Vu, Dai Quoc Nguyen, Mark Dras and  Mark Johnson. <b>2017</b>. 
   <a href="http://aclweb.org/anthology/U17-1013" target="_blank">From Word Segmentation to POS Tagging for Vietnamese</a>. 
@@ -65,6 +67,5 @@ Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citatio
 
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[Before 2017]</b> See my Google Scholar profile!</span>
-
 
 </ul>
