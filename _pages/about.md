@@ -31,6 +31,8 @@ Academic service
 
 <ul>
 
-<li style="margin-top:0.5em;text-align:justify"> Program Committee: NeurIPS (2020)</li>
+<li style="margin-top:0.5em;text-align:justify"> 
+  Program Committee: NeurIPS (2020).
+</li>
 
 </ul>
