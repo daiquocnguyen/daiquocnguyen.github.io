@@ -14,6 +14,13 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
  
 <li style="margin-top:0.5em;text-align:justify">
  <b>Dai Quoc Nguyen</b>, Tu Nguyen and Dinh Phung. <b>2020</b>. 
+  <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a>. 
+  In <i>Proceedings of The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (ECML PKDD).
+  <a href="https://github.com/daiquocnguyen/Walk-Transformer/" target="_blank">[Code]</a>
+</li>
+ 
+<li style="margin-top:0.5em;text-align:justify">
+ <b>Dai Quoc Nguyen</b>, Tu Nguyen and Dinh Phung. <b>2020</b>. 
   <a href="https://www.aclweb.org/anthology/2020.acl-main.313/" target="_blank">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a>. 
   In <i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</i> (ACL), pages 3429–3435.
   <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank">[Code]</a>
@@ -85,19 +92,19 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2017]</b> </span>
 
 <ul>
-
-<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, Thanh Vu, <b>Dai Quoc Nguyen</b>, Mark Dras and  Mark Johnson. <b>2017</b>. 
-  <a href="http://aclweb.org/anthology/U17-1013" target="_blank">From Word Segmentation to POS Tagging for Vietnamese</a>. 
-  In <i>Proceedings of the 15th Annual Workshop of the Australasian Language Technology Association</i> (ALTA), pages 108-113. 
-  <a href="https://github.com/datquocnguyen/VnMarMoT" target="_blank">[Code]</a>
-</li>
                 
 <li style="margin-top:0.5em;text-align:justify"> <b>Dai Quoc Nguyen</b>, Dat Quoc Nguyen, Cuong Xuan Chu, Stefan Thater and  Manfred Pinkal. <b>2017</b>. 
   <a href="http://www.aclweb.org/anthology/I17-2007" target="_blank">Sequence to Sequence Learning for Event Prediction</a>. 
   In <i>Proceedings of the 8th International Joint Conference on Natural Language Processing</i> (IJCNLP),  pages 37-42. 
   <a href="https://github.com/daiquocnguyen/EventPrediction" target="_blank">[Data]</a>
 </li>
-                
+
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, Thanh Vu, <b>Dai Quoc Nguyen</b>, Mark Dras and  Mark Johnson. <b>2017</b>. 
+  <a href="http://aclweb.org/anthology/U17-1013" target="_blank">From Word Segmentation to POS Tagging for Vietnamese</a>. 
+  In <i>Proceedings of the 15th Annual Workshop of the Australasian Language Technology Association</i> (ALTA), pages 108-113. 
+  <a href="https://github.com/datquocnguyen/VnMarMoT" target="_blank">[Code]</a>
+</li>
+
 <li style="margin-top:0.5em;text-align:justify"> <b>Dai Quoc Nguyen</b>, Dat Quoc Nguyen, Ashutosh Modi, Stefan Thater and  Manfred Pinkal. <b>2017</b>. 
   <a href="http://www.aclweb.org/anthology/S17-1015" target="_blank">A Mixture Model for Learning Multi-Sense Word Embeddings</a>. 
   In <i>Proceedings of the 6th Joint Conference on Lexical and Computational Semantics</i> (*SEM), pages 121-127. 
