@@ -26,7 +26,7 @@ News
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [09/2019] ArXiv paper <a href="https://arxiv.org/pdf/1909.11855.pdf">Universal Self-Attention Network for Graph Classification</a> are available with <a href="https://github.com/daiquocnguyen/Graph-Transformer">code</a>.
+  [09/2019] Preprint <a href="https://arxiv.org/pdf/1909.11855.pdf">Universal Self-Attention Network for Graph Classification</a>.
 </li>
 
 </ul>
