@@ -43,7 +43,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2019</b>. 
   <a href="https://www.aclweb.org/anthology/N19-1226" target="_blank">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a>. 
-  In <i>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL), pages 2180-2189.
+  In <i>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL-HLT), pages 2180-2189.
   <a href="https://github.com/daiquocnguyen/CapsE" target="_blank">[Code]</a>
 </li>
   
@@ -71,13 +71,13 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2018</b>. 
   <a href="http://aclweb.org/anthology/N18-2053" target="_blank">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a>. 
-  In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL), pages 327-333. 
+  In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL-HLT), pages 327-333. 
   <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Code]</a>
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> Thanh Vu, Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Mark Dras and  Mark Johnson. <b>2018</b>. 
   <a href="http://aclweb.org/anthology/N18-5012" target="_blank">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a>. 
-  In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations</i> (NAACL), pages 56-60. 
+  In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations</i> (NAACL-HLT), pages 56-60. 
   <a href="https://github.com/vncorenlp/VnCoreNLP" target="_blank">[Code]</a>
 </li>
                 
