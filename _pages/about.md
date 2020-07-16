@@ -29,6 +29,19 @@ News
   [09/2019] Preprint <a href="https://arxiv.org/pdf/1909.11855.pdf">Universal Self-Attention Network for Graph Classification</a>.
 </li>
 
+<li style="margin-top:0.5em;text-align:justify"> 
+  [02/2019] Paper <a href="https://arxiv.org/abs/1808.04122">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a> has been accepted to NAACL 2019.
+</li>
+
+<li style="margin-top:0.5em;text-align:justify"> 
+  [04/2018] Paper <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf">A Convolutional Neural Network-based Model for Knowledge Base Completion and Its Application to Search Personalization</a> has been accepted to Semantic Web Journal.
+</li>
+
+
+<li style="margin-top:0.5em;text-align:justify"> 
+  [02/2018] Paper <a href="https://arxiv.org/abs/1712.02121">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> has been accepted to NAACL 2018.
+</li>
+
 </ul>
 </div>
 
