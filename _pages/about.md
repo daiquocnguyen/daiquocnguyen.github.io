@@ -25,6 +25,10 @@ News
   [04/2020] Paper <a href="https://arxiv.org/abs/1907.06080">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a> has been accepted to ACL 2020.
 </li>
 
+<li style="margin-top:0.5em;text-align:justify"> 
+  [09/2019] ArXiv paper <a href="https://arxiv.org/pdf/1909.11855.pdf">Universal Self-Attention Network for Graph Classification</a> are available with <a href="https://github.com/daiquocnguyen/Graph-Transformer">code</a>.
+</li>
+
 </ul>
 </div>
 
