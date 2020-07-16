@@ -15,7 +15,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <li style="margin-top:0.5em;text-align:justify">
  <b>Dai Quoc Nguyen</b>, Tu Nguyen and Dinh Phung. <b>2020</b>. 
   <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a>. 
-  In <i>Proceedings of The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (ECML PKDD).
+  In <i>Proceedings of The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (ECML-PKDD).
   <a href="https://github.com/daiquocnguyen/Walk-Transformer/" target="_blank">[Code]</a>
 </li>
  
