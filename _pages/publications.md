@@ -4,9 +4,22 @@ title: ""
 permalink: /publications/
 author_profile: true
 ---
-(Last updated: 26 Sep 2019) 
+(Last updated: 15 July 2020) 
 
 Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2020]</b> </span>
+
+<ul>
+ 
+<li style="margin-top:0.5em;text-align:justify">
+  Dai Quoc Nguyen, Tu Nguyen and Dinh Phung. <b>2020</b>. 
+  <a href="https://www.aclweb.org/anthology/2020.acl-main.313/" target="_blank">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a>. 
+  In <i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</i> (ACL), pages 3429–3435.
+  <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank">[Code]</a>
+</li>
+  
+</ul>
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2019]</b> </span>
 
