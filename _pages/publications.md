@@ -8,6 +8,27 @@ author_profile: true
 
 Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2019]</b> </span>
+
+<ul>
+  
+<li style="margin-top:0.5em;text-align:justify">
+  Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2019</b>. 
+  <a href="https://www.aclweb.org/anthology/N19-1226" target="_blank">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a>. 
+  In <i>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL), pages 2180-2189.
+  <a href="https://github.com/daiquocnguyen/CapsE" target="_blank">[Code]</a>
+</li>
+  
+<li style="margin-top:0.5em;text-align:justify">
+  Dai Quoc Nguyen, Dat Quoc Nguyen, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
+  <a href="http://aclweb.org/anthology/N18-2053" target="_blank">A convolutional neural network-based model for knowledge base completion and its application to search personalization</a>. 
+  <i>Semantic Web</i>, 10(5):947-960. (SCIE, JCR IF: 3.524) 
+  <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf" target="_blank">[.pdf]</a>
+  <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Code]</a>
+</li>
+
+</ul>
+
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2018]</b> </span>
 
 <ul>
@@ -61,9 +82,9 @@ Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citatio
   In <i>Proceedings of the 6th Joint Conference on Lexical and Computational Semantics</i> (*SEM), pages 121-127. 
 </li>
                 
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify;color:#ff0000"> Dat Quoc Nguyen*, Dai Quoc Nguyen* and Son Bao Pham. <b>2017</b>. 
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen*, Dai Quoc Nguyen* and Son Bao Pham. <b>2017</b>. 
   <a href="https://doi.org/10.3233/SW-150204" target="_blank">Ripple Down Rules for Question Answering</a>. 
-  <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 2.224) 
+  <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 3.524)
   <a href="http://www.semantic-web-journal.net/system/files/swj1180.pdf" target="_blank">[.pdf]</a>
 </li>                
 
