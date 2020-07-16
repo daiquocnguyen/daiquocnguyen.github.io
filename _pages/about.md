@@ -14,7 +14,7 @@ Email: dai (dot) nguyen (at) monash (dot) edu
 News
 ======
 
-<div class="torightc" style="height:350px;overflow:auto;">
+<div class="torightc" style="height:500px;overflow:auto;">
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
@@ -37,13 +37,13 @@ News
   [04/2018] Paper <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf">A Convolutional Neural Network-based Model for Knowledge Base Completion and Its Application to Search Personalization</a> has been accepted to Semantic Web Journal.
 </li>
 
-
 <li style="margin-top:0.5em;text-align:justify"> 
   [02/2018] Papers <a href="https://arxiv.org/abs/1712.02121">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> and <a href="">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a> have been accepted to NAACL 2018.
 </li>
 
 </ul>
 </div>
+
 
 Academic service
 ======
