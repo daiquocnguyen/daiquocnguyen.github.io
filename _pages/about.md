@@ -16,9 +16,13 @@ News
 
 <ul>
 
-<li style="margin-top:0.5em;text-align:justify"> [06/2020] Paper <i>A Self-Attention Network based Node Embedding Model </i> has been accepted to ECML-PKDD 2020.</li>
+<li style="margin-top:0.5em;text-align:justify"> 
+  [06/2020] Paper <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a> has been accepted to ECML-PKDD 2020.
+</li>
 
-<li style="margin-top:0.5em;text-align:justify"> [04/2020] Paper <i>A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</i> has been accepted to ACL 2020.</li>
+<li style="margin-top:0.5em;text-align:justify"> 
+  [04/2020] Paper <a href="https://arxiv.org/abs/1907.06080" target="_blank">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a> has been accepted to ACL 2020.
+</li>
 
 </ul>
 
