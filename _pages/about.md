@@ -14,7 +14,7 @@ Email: dai (dot) nguyen (at) monash (dot) edu
 News
 ======
 
-<div class="torightc" style="height:570px;overflow:auto;">
+<div class="torightc" style="height:350px;overflow:auto;">
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
