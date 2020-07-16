@@ -18,27 +18,27 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [06/2020] Paper <a href="https://arxiv.org/abs/2006.12100">A Self-Attention Network based Node Embedding Model</a> has been accepted to ECML-PKDD 2020.
+  [06/2020] Paper <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a> has been accepted to ECML-PKDD 2020.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [04/2020] Paper <a href="https://arxiv.org/abs/1907.06080">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a> has been accepted to ACL 2020.
+  [04/2020] Paper <a href="https://arxiv.org/abs/1907.06080" target="_blank">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a> has been accepted to ACL 2020.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [09/2019] Preprint <a href="https://arxiv.org/pdf/1909.11855.pdf">Universal Self-Attention Network for Graph Classification</a>.
+  [09/2019] Preprint <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Self-Attention Network for Graph Classification</a>.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [02/2019] Paper <a href="https://arxiv.org/abs/1808.04122">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a> has been accepted to NAACL 2019.
+  [02/2019] Paper <a href="https://arxiv.org/abs/1808.04122" target="_blank">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a> has been accepted to NAACL 2019.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [04/2018] Paper <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf">A Convolutional Neural Network-based Model for Knowledge Base Completion and Its Application to Search Personalization</a> has been accepted to Semantic Web Journal.
+  [04/2018] Paper <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf" target="_blank">A Convolutional Neural Network-based Model for Knowledge Base Completion and Its Application to Search Personalization</a> has been accepted to Semantic Web Journal.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [02/2018] Papers <a href="https://arxiv.org/abs/1712.02121">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> and <a href="">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a> have been accepted to NAACL 2018.
+  [02/2018] Papers <a href="https://arxiv.org/abs/1712.02121" target="_blank">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> and <a href="">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a> have been accepted to NAACL 2018.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
