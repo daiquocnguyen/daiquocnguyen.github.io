@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dai Quoc Nguyen's Homepage"
+title                    : "Dai Quoc Nguyen"
 title_separator          : "-"
 name                     : &name "Dai Quoc Nguyen"
 description              : &description ""
