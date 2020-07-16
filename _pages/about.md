@@ -39,7 +39,7 @@ News
 
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [02/2018] Paper <a href="https://arxiv.org/abs/1712.02121">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> has been accepted to NAACL 2018.
+  [02/2018] Papers <a href="https://arxiv.org/abs/1712.02121">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> and <a href="">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a> have been accepted to NAACL 2018.
 </li>
 
 </ul>
