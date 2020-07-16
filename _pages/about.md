@@ -41,6 +41,18 @@ News
   [02/2018] Papers <a href="https://arxiv.org/abs/1712.02121">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a> and <a href="">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a> have been accepted to NAACL 2018.
 </li>
 
+<li style="margin-top:0.5em;text-align:justify"> 
+  [12/2017] Paper <a href="">A Fast and Accurate Vietnamese Word Segmenter</a> has been accepted to LREC 2018.
+</li>
+
+<li style="margin-top:0.5em;text-align:justify"> 
+  [09/2017] Paper <a href="">Sequence to Sequence Learning for Event Prediction</a> has been accepted to IJCNLP 2017.
+</li>
+
+<li style="margin-top:0.5em;text-align:justify"> 
+  [06/2017] Paper <a href="">A Mixture Model for Learning Multi-Sense Word Embeddings</a> has been accepted to *SEM 2017.
+</li>
+
 </ul>
 </div>
 
