@@ -1,17 +1,25 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
-(Last updated: 1 January 2019) 
+(Last updated: 25 Sep 2019) 
 
 Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2019]</b> </span>
 
 <ul>
-  
+
+<li style="margin-top:0.5em;text-align:justify">
+  Dai Quoc Nguyen, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
+  <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Self-Attention Network for Graph Classification</a>. 
+  <i> arXiv preprint arXiv:1909.11855</i>. 
+  <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">[Code]</a>
+</li>
+
+
 <li style="margin-top:0.5em;text-align:justify">
   Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2019</b>. 
   <a href="https://www.aclweb.org/anthology/N19-1226" target="_blank">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a>. 
@@ -21,7 +29,7 @@ Up-to-date papers at [Google Scholar profile](https://scholar.google.com/citatio
   
 <li style="margin-top:0.5em;text-align:justify">
   Dai Quoc Nguyen, Dat Quoc Nguyen, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
-  <a href="http://aclweb.org/anthology/N18-2053" target="_blank">A convolutional neural network-based model for knowledge base completion and its application to search personalization</a>. 
+  <a href="http://doi.org/10.3233/SW-180318" target="_blank">A convolutional neural network-based model for knowledge base completion and its application to search personalization</a>. 
   <i>Semantic Web</i>, 10(5):947-960. (SCIE, JCR IF: 3.524) 
   <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf" target="_blank">[.pdf]</a>
   <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Code]</a>
