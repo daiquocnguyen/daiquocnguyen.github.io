@@ -13,14 +13,14 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <ul>
  
 <li style="margin-top:0.5em;text-align:justify">
- <b>Dai Quoc Nguyen</b>, Tu Nguyen and Dinh Phung. <b>2020</b>. 
+ <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
   <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a>. 
   In <i>Proceedings of The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (ECML-PKDD).
   <a href="https://github.com/daiquocnguyen/Walk-Transformer/" target="_blank">[Code]</a>
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
- <b>Dai Quoc Nguyen</b>, Tu Nguyen and Dinh Phung. <b>2020</b>. 
+ <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
   <a href="https://www.aclweb.org/anthology/2020.acl-main.313/" target="_blank">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a>. 
   In <i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</i> (ACL), pages 3429–3435.
   <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank">[Code]</a>
