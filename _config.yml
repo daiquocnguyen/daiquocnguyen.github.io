@@ -86,7 +86,7 @@ author:
   location         : "Melbourne, Australia"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=AmB7MhUAAAAJ&hl=en"
-  email            : "firstname.lastname@monash.edu"
+  email            : "firstname[dot]lastname[at]monash[dot]edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
