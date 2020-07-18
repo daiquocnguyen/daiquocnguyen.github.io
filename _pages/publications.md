@@ -112,7 +112,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
                 
 <li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen*, <b>Dai Quoc Nguyen</b>* and Son Bao Pham. <b>2017</b>. 
   <a href="https://doi.org/10.3233/SW-150204" target="_blank">Ripple Down Rules for Question Answering</a>. 
-  <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 3.524)
+  <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 2.224)
   <a href="http://www.semantic-web-journal.net/system/files/swj1180.pdf" target="_blank">[.pdf]</a>
 </li>                
 
