@@ -16,9 +16,9 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [06/2020] Paper <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a> has been accepted to ECML-PKDD 2020.
+  [06/2020] Release the Pytorch implementation of our <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank">R-MeN</a> model (proposed in our ACL 2020 paper) for knowledge graph completion.
   <br />
-  Release the Pytorch implementation of our <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank">R-MeN</a> model (proposed in our ACL 2020 paper) for knowledge graph completion.
+  Paper <a href="https://arxiv.org/abs/2006.12100" target="_blank">A Self-Attention Network based Node Embedding Model</a> has been accepted to ECML-PKDD 2020.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
