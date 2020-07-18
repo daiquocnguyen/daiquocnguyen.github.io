@@ -49,7 +49,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
   
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Dat Quoc Nguyen, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
-  <a href="http://doi.org/10.3233/SW-180318" target="_blank">A convolutional neural network-based model for knowledge base completion and its application to search personalization</a>. 
+  <a href="http://doi.org/10.3233/SW-180318" target="_blank">A Convolutional Neural Network-based Model for Knowledge Base Completion and Its Application to Search Personalization</a>. 
   <i>Semantic Web</i>, 10(5):947-960. (SCIE, JCR IF: 3.524) 
   <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf" target="_blank">[.pdf]</a>
   <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Code]</a>
