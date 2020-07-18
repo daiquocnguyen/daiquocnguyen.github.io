@@ -22,6 +22,10 @@ News
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
+  [05/2020] Release the Pytorch implementation of our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">U2GNN (Graph-Transformer)</a> model.
+</li>
+
+<li style="margin-top:0.5em;text-align:justify"> 
   [04/2020] Paper <a href="https://arxiv.org/abs/1907.06080" target="_blank">A Relational Memory-based Embedding Model for Triple Classification and Search Personalization</a> has been accepted to ACL 2020.
 </li>
 
