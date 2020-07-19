@@ -50,7 +50,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Dat Quoc Nguyen, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
   <a href="http://doi.org/10.3233/SW-180318" target="_blank">A Convolutional Neural Network-based Model for Knowledge Base Completion and Its Application to Search Personalization</a>. 
-  <i>Semantic Web</i>, 10(5):947-960. (SCIE, JCR IF: 3.524) 
+  <i>Semantic Web</i>, 10(5):947-960. (SCIE, JCR IF: 3.524).
   <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf" target="_blank">[.pdf]</a>
   <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Code]</a>
 </li>
@@ -112,11 +112,52 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
                 
 <li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen*, <b>Dai Quoc Nguyen</b>* and Son Bao Pham. <b>2017</b>. 
   <a href="https://doi.org/10.3233/SW-150204" target="_blank">Ripple Down Rules for Question Answering</a>. 
-  <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 2.224)
+  <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 2.224).
   <a href="http://www.semantic-web-journal.net/system/files/swj1180.pdf" target="_blank">[.pdf]</a>
 </li>                
 
 </ul>
 
-<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[Before 2017]</b> See my Google Scholar profile!</span>
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2016]</b> </span>
+
+<ul>
+ 
+ <li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen*, <b>Dai Quoc Nguyen</b>*, Dang Duc Pham and Son Bao Pham. <b>2016</b>. 
+  <a href="https://content.iospress.com/articles/ai-communications/aic698" target="_blank">A Robust Transformation-Based Learning Approach Using Ripple Down Rules
+for Part-of-Speech Tagging</a>. 
+  <i>AI Communications</i>, 29(3):409-422. (SCIE, JCR IF: 0.654).
+  <a href="https://arxiv.org/pdf/1412.4021.pdf" target="_blank">[.pdf]</a>
+</li> 
+
+</ul>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2014]</b> </span>
+
+<ul>
+ 
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Son Bao Pham, Phuong-Thai Nguyen and Minh Le Nguyen. <b>2014</b>. 
+  <a href="https://link.springer.com/chapter/10.1007/978-3-319-07983-7_26" target="_blank">From Treebank Conversion to Automatic Dependency Parsing for Vietnamese</a>. 
+  In <i>Proceedings of 19th International Conference on Application of Natural Language to Information Systems</i> (NLDB), pages 196-207.
+  <a href="https://github.com/datquocnguyen/VnDT/blob/master/VnDT-paper-CameraReadyVersion.pdf" target="_blank">[.pdf]</a>
+  <a href="https://github.com/datquocnguyen/VnDT" target="_blank">[Data]</a>
+</li>
+
+
+<li style="margin-top:0.5em;text-align:justify"> <b>Dai Quoc Nguyen</b>, Dat Quoc Nguyen, Thanh Vu and Son Bao Pham. <b>2014</b>. 
+  <a href="http://www.aclweb.org/anthology/W14-2621" target="_blank">Sentiment Classification on Polarity Reviews: An Empirical Study Using Rating-based Features</a>. 
+  In <i>Proceedings of the 5th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis</i> (WASSA), pages 128-135.
+  <a href="https://github.com/daiquocnguyen/SAR14" target="_blank">[Data]</a>
+</li>
+
+
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Dang Duc Pham and Son Bao Pham. <b>2014</b>. 
+  <a href="http://www.aclweb.org/anthology/E14-2005" target="_blank">RDRPOSTagger: A Ripple Down Rules-based Part-Of-Speech Tagger</a>. 
+  In <i>Proceedings of the Demonstrations at the 14th Conference of the European Chapter of the Association for Computational Linguistics</i> (EACL), pages 17-20.
+  <a href="https://github.com/datquocnguyen/RDRPOSTagger" target="_blank">[Code]</a>
+</li>
+
+
+</ul>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[Before 2014]</b> See my Google Scholar profile!</span>
 
