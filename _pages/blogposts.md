@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Resources"
-permalink: /resources/
+title: ""
+permalink: /blogposts/
 author_profile: true
 ---
