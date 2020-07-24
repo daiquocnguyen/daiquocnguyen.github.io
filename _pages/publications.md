@@ -60,14 +60,13 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2018]</b> </span>
 
 <ul>
-
-<li style="margin-top:0.5em;text-align:justify">
-  Thanh Vu, Dat Quoc Nguyen, Xuan-Son Vu, <b>Dai Quoc Nguyen</b>, Michael Catt and Michael Trenell. <b>2018</b>. 
-  <a href="http://aclweb.org/anthology/S18-1085" target="_blank">NIHRIO at SemEval-2018 Task 3: A Simple and Accurate Neural Network Model for Irony Detection in Twitter</a>.
-  In <i>Proceedings of the 12th International Workshop on Semantic Evaluation</i> (SemEval), pages 525-530. 
-  <a href="https://github.com/NIHRIO/IronyDetectionInTwitter" target="_blank">[Code]</a>
+ 
+ <li style="margin-top:0.5em;text-align:justify"> Thanh Vu, Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Mark Dras and  Mark Johnson. <b>2018</b>. 
+  <a href="http://aclweb.org/anthology/N18-5012" target="_blank">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a>. 
+  In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations</i> (NAACL-HLT), pages 56-60. 
+  <a href="https://github.com/vncorenlp/VnCoreNLP" target="_blank">[Code]</a>
 </li>
-                                
+ 
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2018</b>. 
   <a href="http://aclweb.org/anthology/N18-2053" target="_blank">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a>. 
@@ -75,16 +74,17 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
   <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Code]</a>
 </li>
 
-<li style="margin-top:0.5em;text-align:justify"> Thanh Vu, Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Mark Dras and  Mark Johnson. <b>2018</b>. 
-  <a href="http://aclweb.org/anthology/N18-5012" target="_blank">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a>. 
-  In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations</i> (NAACL-HLT), pages 56-60. 
-  <a href="https://github.com/vncorenlp/VnCoreNLP" target="_blank">[Code]</a>
-</li>
-                
 <li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Thanh Vu, Mark Dras and  Mark Johnson. <b>2018</b>. 
   <a href="https://www.aclweb.org/anthology/L18-1410" target="_blank">A Fast and Accurate Vietnamese Word Segmenter</a>. 
   In <i>Proceedings of the 11th International Conference on Language Resources and Evaluation</i> (LREC), pages 2582-2587. 
   <a href="https://github.com/datquocnguyen/RDRsegmenter" target="_blank">[Code]</a>
+</li>
+
+<li style="margin-top:0.5em;text-align:justify">
+  Thanh Vu, Dat Quoc Nguyen, Xuan-Son Vu, <b>Dai Quoc Nguyen</b>, Michael Catt and Michael Trenell. <b>2018</b>. 
+  <a href="http://aclweb.org/anthology/S18-1085" target="_blank">NIHRIO at SemEval-2018 Task 3: A Simple and Accurate Neural Network Model for Irony Detection in Twitter</a>.
+  In <i>Proceedings of the 12th International Workshop on Semantic Evaluation</i> (SemEval), pages 525-530. 
+  <a href="https://github.com/NIHRIO/IronyDetectionInTwitter" target="_blank">[Code]</a>
 </li>
 
 </ul>
