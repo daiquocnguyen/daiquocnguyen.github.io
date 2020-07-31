@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a last year PhD student at <a href="https://www.monash.edu/it">Monash University</a>, working on applications of deep learning to natural language processing, knowledge graph embeddings and graph neural networks, under the supervision of <a href="http://dinhphung.ml">Dinh Phung</a> and <a href="https://scholar.google.com/citations?hl=en&user=4hT6E04AAAAJ&view_op=list_works&sortby=pubdate">Tu Dinh Nguyen</a>. Before that, I obtained my M.Sc in Language Science and Technology from <a href="http://www.coli.uni-saarland.de">Saarland University</a>, where I was a research assistant in <a href="http://www.coli.uni-saarland.de/~pinkal/en/page.php">Manfred Pinkal</a>’s group. Prior to that, I was a researcher at <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>, where I received my B.Sc degree.
+I am a last year PhD student at <a href="https://www.monash.edu/">Monash University</a>, working on applications of deep learning to natural language processing, knowledge graph embeddings and graph neural networks, under the supervision of <a href="http://dinhphung.ml">Dinh Phung</a> and <a href="https://scholar.google.com/citations?hl=en&user=4hT6E04AAAAJ&view_op=list_works&sortby=pubdate">Tu Dinh Nguyen</a>. Before that, I obtained my M.Sc in Language Science and Technology from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, where I was a research assistant in <a href="http://www.coli.uni-saarland.de/~pinkal/en/page.php">Manfred Pinkal</a>’s group. Prior to that, I was a researcher at <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>, where I received my B.Sc degree.
 
 News
 ======
