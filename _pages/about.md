@@ -16,7 +16,7 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [08/2020] Paper <a href="https://arxiv.org/pdf/1911.04822.pdf">A Capsule Network-based Model for Learning Node Embeddings</a> has been accepted to CIKM 2020.
+  [08/2020] Paper <a href="https://arxiv.org/pdf/1911.04822.pdf">A Capsule Network-based Model for Learning Node Embeddings</a> has been accepted to CIKM 2020 (Poster).
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
