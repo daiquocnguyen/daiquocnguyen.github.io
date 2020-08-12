@@ -73,7 +73,7 @@ Academic service
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  Program Committee: NeurIPS (2020).
+  Program Committee: NeurIPS (2020), ICLR (2021).
 </li>
 
 </ul>
