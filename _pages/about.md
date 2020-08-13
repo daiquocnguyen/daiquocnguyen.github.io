@@ -16,7 +16,9 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [08/2020] Paper <a href="https://arxiv.org/pdf/1911.04822.pdf">A Capsule Network-based Model for Learning Node Embeddings</a> has been accepted to CIKM 2020.
+  [08/2020] Preprint <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>.
+  <br />
+  Paper <a href="https://arxiv.org/pdf/1911.04822.pdf">A Capsule Network-based Model for Learning Node Embeddings</a> has been accepted to CIKM 2020.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
