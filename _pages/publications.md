@@ -4,13 +4,26 @@ title: ""
 permalink: /publications/
 author_profile: true
 ---
-(Last updated: 15 July 2020) 
+(Last updated: 15 August 2020) 
 
 Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2020]</b> </span>
 
 <ul>
+ 
+<li style="margin-top:0.5em;text-align:justify">
+ <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2020</b>. 
+  <a href="https://arxiv.org/pdf/1911.04822.pdf" target="_blank">A Capsule Network-based Model for Learning Node Embeddings</a>. 
+  In <i>The 29th ACM International Conference on Information and Knowledge Management</i> (CIKM).
+  <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank">[Code]</a>
+</li>
+ 
+<li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
+  <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>. 
+  <i> arXiv preprint arXiv:2008.05089</i>.
+</li>
  
 <li style="margin-top:0.5em;text-align:justify">
  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
