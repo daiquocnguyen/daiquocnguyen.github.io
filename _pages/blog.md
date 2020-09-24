@@ -26,19 +26,19 @@ After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain the vector 
 
 Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we formulate GNNs as follows:
 
-* <b>h</b><sub>v</sub><sup>(l)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l-1)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>)
+<p align="center"> <b>h</b><sub>v</sub><sup>(l)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l-1)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
 
-* <b>e</b><sub>G</sub> = <i>ReadOut</i>({<b>e</b><sub>v</sub>}<sub>∀v∈V</sub>)
+<p align="center"> <b>e</b><sub>G</sub> = <i>ReadOut</i>({<b>e</b><sub>v</sub>}<sub>∀v∈V</sub>) </p>
 
 where <b>h</b><sub>v</sub><sup>(l)</sup> is the vector representation of node v at the <i>l</i>-th iteration/layer, N<sub>v</sub> is the set of neighbors of node v, and <b>h</b><sub>v</sub><sup>(0)</sup> = <b>h</b><sub>v</sub>.
 
 There have been many designs for the <i>Aggregation</i> functions proposed in recent literature. The widely-used one is introduced in Graph Convolutional Network (GCN) [1] as:
 
-* <b>h</b><sub>v</sub><sup>(l)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V
+<p align="center">  <b>h</b><sub>v</sub><sup>(l)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V </p>
 
 Besides, a more powerful aggregation function based on multi-layer perceptrons (MLPs) (e.g., two fully-connected layers) is used in Graph Isomorphism Network (GIN-0) [7]:
 
-* <b>h</b><sub>v</sub><sup>(l)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V
+<p align="center"> <b>h</b><sub>v</sub><sup>(l)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V </p>
 
 Now we can employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
 
@@ -57,11 +57,11 @@ We provide key notations and operations related to quaternion space required for
 
 A quaternion <i>q</i> ∈ H is a hyper-complex number con-sisting of a real and three separate imaginary components [9] defined as: 
 
-* <i>q</i> = <i>q</i><sub>r</sub> + <i>q</i><sub>i</sub><b>i</b> + <i>q</i><sub>j</sub><b>j</b> + <i>q</i><sub>k</sub><b>k</b>
+<p align="center"> <i>q</i> = <i>q</i><sub>r</sub> + <i>q</i><sub>i</sub><b>i</b> + <i>q</i><sub>j</sub><b>j</b> + <i>q</i><sub>k</sub><b>k</b> </p>
 
 where <i>q</i><sub>r</sub>, <i>q</i><sub>i</sub>, <i>q</i><sub>j</sub>, <i>q</i><sub>k</sub> ∈ R, and <b>i</b>, <b>j</b>, <b>k</b> are imaginary units that <b>ijk</b> = <b>i</b><sup>2</sup> = <b>j</b><sup>2</sup> = <b>k</b><sup>2</sup> = −1, leads to non-commutative multiplication rules as <b>ij</b> = <b>k</b>, <b>ji</b> = −<b>k</b>, <b>jk</b> = <b>i</b>, <b>kj</b> = −<b>i</b>, <b>ki</b> = <b>j</b>, and <b>ik</b> = −<b>j</b>.  Correspondingly, a <i>n</i>-dimensional quaternion vector <b><i>q</i></b> ∈ H<sup>n</sup> is defined as:
 
-* <b><i>q</i></b> = <b><i>q</i></b><sub>r</sub> + <b><i>q</i></b><sub>i</sub><b>i</b> + <b><i>q</i></b><sub>j</sub><b>j</b> + <b><i>q</i></b><sub>k</sub><b>k</b>
+<p align="center"> <b><i>q</i></b> = <b><i>q</i></b><sub>r</sub> + <b><i>q</i></b><sub>i</sub><b>i</b> + <b><i>q</i></b><sub>j</sub><b>j</b> + <b><i>q</i></b><sub>k</sub><b>k</b> </p>
 
 where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><sub>j</sub>, <b><i>q</i></b><sub>k</sub> ∈ R<sup>n</sup>. The operations for the Quaternion algebra are defined as follows:
 
@@ -94,7 +94,7 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 
 In our proposed QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
-* <b>h</b><sub>v</sub><sup>(l),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l-1),Q</sup>), ∀ v ∈ V
+<p align="center">  <b>h</b><sub>v</sub><sup>(l),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l-1),Q</sup>), ∀ v ∈ V </p>
 
 where we use the superscript <sup>Q</sup> to denote the Quaternion space; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix at the <i>l</i>-th layer; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>
 
@@ -120,7 +120,7 @@ This phenomenon enforces the model to learn the potential relations within each 
 We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
 The learning process to predict the class labels is in the Euclidean space, so we vectorize <b>h</b><sub>v</sub><sup>(L),Q</sup> to obtain the node representation <b>x</b><sub>v</sub><sup>(L)</sup>  as: 
 
-* <b>x</b><sub>v</sub><sup>(L)</sup> = Vec(<b>h</b><sub>v</sub><sup>(L),Q</sup>) = [<b>h</b><sub>v,r</sub><sup>(L)</sup>; <b>h</b><sub>v,i</sub><sup>(L)</sup>; <b>h</b><sub>v,j</sub><sup>(L)</sup>; <b>h</b><sub>v,k</sub><sup>(L)</sup>] 
+<p align="center"> <b>x</b><sub>v</sub><sup>(L)</sup> = Vec(<b>h</b><sub>v</sub><sup>(L),Q</sup>) = [<b>h</b><sub>v,r</sub><sup>(L)</sup>; <b>h</b><sub>v,i</sub><sup>(L)</sup>; <b>h</b><sub>v,j</sub><sup>(L)</sup>; <b>h</b><sub>v,k</sub><sup>(L)</sup>] </p>
 
 where Vec(.) denotes a concatenation of the four components of the quaternion vector.
 To perform the semi-supervised node classification task, on top of the last <i>L</i>-th QGNN layer, we construct a GCN layer followed by a softmax activation function.
