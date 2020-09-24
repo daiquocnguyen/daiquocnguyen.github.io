@@ -10,7 +10,7 @@ author_profile: true
 <sub>Dai Quoc Nguyen, 25 September, 2020 </sub>
 
 <p align="center">
-	<img src="https://github.com/daiquocnguyen/daiquocnguyen.github.io/blob/master/_pages/qgnn.png" width="550">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/qgnn.png" width="550">
 </p>
 
 ##
@@ -78,13 +78,13 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 * <b>Hamilton  product.</b> The  Hamilton  product ⊗ (i.e., the quaternion multiplication) of two quaternions <i>q</i> and <i>p</i> is defined as:
 
 <p align="center">
-	<img src="https://github.com/daiquocnguyen/daiquocnguyen.github.io/blob/master/_pages/hamilton_product1.png" width="345">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/hamilton_product1.png" width="345">
 </p>
 
 * We can express the Hamilton product of <i>q</i> and <i>p</i> in the following form:
 
 <p align="center">
-	<img src="https://github.com/daiquocnguyen/daiquocnguyen.github.io/blob/master/_pages/hamilton_product2.png" width="375">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/hamilton_product2.png" width="375">
 </p>
 
 * Note that the Hamilton product is not commutative, i.e., <i>q</i> ⊗ <i>p</i> ≠ <i>p</i> ⊗ <i>q</i>.
@@ -103,13 +103,13 @@ where we use the superscript <sup>Q</sup> to denote the Quaternion space; <b>W</
 Correspondingly, we represent the quaternion vector <b>h</b><sub>u</sub><sup>(l-1),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
 <p align="center">
-	<img src="https://github.com/daiquocnguyen/daiquocnguyen.github.io/blob/master/_pages/quaternion_vector_matrix.png" width="585">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="585">
 </p>
 
 We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>h</b><sub>u</sub><sup>(l-1),Q</sup> as:
 
 <p align="center">
-	<img src="https://github.com/daiquocnguyen/daiquocnguyen.github.io/blob/master/_pages/matrix_vector_multiplication.png" width="575">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="575">
 </p>
 
 We can see that the Quaternion space provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
