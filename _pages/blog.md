@@ -138,7 +138,7 @@ Graphs are ubiquitous in science, engineering and real-life applications. They a
 As the work represents a fundamental research problem in representing graph we believe that it does not put anyone at disadvantages. 
 Through extensive experimental evaluation, our proposed QGNN has demonstrated to achieve superior prediction performances on a wide range of benchmark datasets.
 
-Please cite [our paper](https://arxiv.org/pdf/2008.05089.pdf) whenever QGNN is used to produce published results or incorporated into other software:
+Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
 	@article{Nguyen2020QGNN,
 		author={Dai Quoc Nguyen and Tu Dinh Nguyen and Dinh Phung},
