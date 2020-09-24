@@ -142,7 +142,7 @@ Please cite [our paper](https://arxiv.org/pdf/2008.05089.pdf) whenever QGNN is u
 
 	@article{Nguyen2020QGNN,
 		author={Dai Quoc Nguyen and Tu Dinh Nguyen and Dinh Phung},
-		title={{Quaternion Graph Neural Network}},
+		title={Quaternion Graph Neural Networks},
 		journal={arXiv preprint arXiv:2008.05089},
 		year={2020}
 	}
