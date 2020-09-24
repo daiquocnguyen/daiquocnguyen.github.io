@@ -45,7 +45,7 @@ Now we can employ a concatenation over the vector representations of node v at t
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
 As the sum pooling can produce competitive performances [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following questions: (i) Can we move beyond the Euclidean space to enhance learning better graph representations? and (ii) Can we reduce the model parameters encoded in the \textsc{Aggregation} functions, especially in the matrix-vector transformations at the different GNN layers?
+While it has been considered under other contexts, in this blog, we address the following questions: (i) Can we move beyond the Euclidean space to enhance learning better graph representations? and (ii) Can we reduce the model parameters encoded in the <i>Aggregation</i> functions, especially in the matrix-vector transformations at the different GNN layers?
 
 To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks, named QGNN, which can be seen as a generalization of GCNs within the Quaternion space. QGNN reduces the model size up to four times and increases the representation quality of node and graph embeddings.
 
