@@ -147,7 +147,7 @@ Please cite [our paper](https://arxiv.org/pdf/2008.05089.pdf) whenever QGNN is u
 		year={2020}
 	}
 	
-The code will be available soon at: https://github.com/daiquocnguyen/QGNN
+The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](https://github.com/daiquocnguyen/QGNN)
 
 ## References<a name="refs"></a>
 
