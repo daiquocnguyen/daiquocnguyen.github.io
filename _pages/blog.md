@@ -101,13 +101,13 @@ where we use the superscript <sup>Q</sup> to denote the Quaternion space; <b>W</
 Correspondingly, we represent the quaternion vector <b>h</b><sub>u</sub><sup>(l-1),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="585">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="600">
 </p>
 
 We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>h</b><sub>u</sub><sup>(l-1),Q</sup> as:
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="575">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="585">
 </p>
 
 We can see that the Quaternion space provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
