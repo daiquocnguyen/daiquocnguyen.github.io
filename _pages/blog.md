@@ -17,7 +17,6 @@ author_profile: true
 2. [Quaternion Background](#background)
 3. [Quaternion Graph Neural Networks](#qgnn)
 4. [Conclusion](#conclusion)
-5. [References](#refs)
 
 ## Introduction<a name="gnns"></a>
 Recently, graph neural network (GNN)-based approaches become a principal research direction to learn low-dimensional continuous embeddings of nodes and graphs to predict node and graph labels, respectively.
@@ -151,7 +150,7 @@ Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used 
 	
 The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](https://github.com/daiquocnguyen/QGNN)
 
-## References<a name="refs"></a>
+## References
 
 [1] Thomas N. Kipf and Max Welling. Semi-supervised classification with graph convolutional networks. In Proceedings of the International Conference on Learning Representations (ICLR), 2017.
 
