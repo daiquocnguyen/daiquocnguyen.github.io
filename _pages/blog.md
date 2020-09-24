@@ -128,7 +128,9 @@ To perform the semi-supervised node classification task, on top of the last <i>L
 ### QGNN for graph classification
 
 We employ a concatenation over the vector representations of node v at the different QGNN layers to construct the node embedding <b>e</b><sub>v</sub><sup>Q</sup>.
-And then we use the sum pooling to obtain the embedding <b>e</b><sub>G</sub><sup>Q</sup> of the entire graph G as: <b>e</b><sub>G</sub><sup>Q</sup> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub><sup>Q</sup>.
+And then we use the sum pooling to obtain the embedding <b>e</b><sub>G</sub><sup>Q</sup> of the entire graph G as: 
+
+<p align="center"> <b>e</b><sub>G</sub><sup>Q</sup> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub><sup>Q</sup> </p>
 
 To perform the graph classification task, we also use the Vec(.) to vectorize <b>e</b><sub>G</sub><sup>Q</sup> to obtain the final graph embedding, which is fed to a single fully-connected layer followed by the softmax layer to predict the graph label.
 
