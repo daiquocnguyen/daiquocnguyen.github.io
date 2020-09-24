@@ -13,8 +13,6 @@ author_profile: true
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/qgnn.png" width="550">
 </p>
 
-##
-
 1. [Introduction](#gnns)
 2. [Quaternion Background](#background)
 3. [Quaternion Graph Neural Networks](#qgnn)
@@ -139,8 +137,6 @@ To perform the graph classification task, we also use the Vec(.) to vectorize <b
 Graphs are ubiquitous in science, engineering and real-life applications. They are fundamental to, for example, the study of disease outbreak, human dynamics, biological networks, information retrieval to name a few. Our work provides basic building blocks for such studies, hence applicable and relevant for many research problems beyond computer science and machine learning themselves. 
 As the work represents a fundamental research problem in representing graph we believe that it does not put anyone at disadvantages. 
 Through extensive experimental evaluation, our proposed QGNN has demonstrated to achieve superior prediction performances on a wide range of benchmark datasets.
-
-##
 
 Please cite [our paper](https://arxiv.org/pdf/2008.05089.pdf) whenever QGNN is used to produce published results or incorporated into other software:
 
