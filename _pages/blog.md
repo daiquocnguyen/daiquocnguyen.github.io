@@ -153,17 +153,17 @@ The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](http
 
 ## References<a name="refs"></a>
 
-[1] Thomas N. Kipf and Max Welling. Semi-supervised classification with graph convolutionalnetworks. In Proceedings of the International Conference on Learning Representations (ICLR), 2017.
+[1] Thomas N. Kipf and Max Welling. Semi-supervised classification with graph convolutional networks. In Proceedings of the International Conference on Learning Representations (ICLR), 2017.
 
-[2] William L. Hamilton, Rex Ying, and Jure Leskovec. Inductive representation learning on largegraphs. In Proceedings of the Advances in Neural Information Processing Systems, pages 1024–1034, 2017.
+[2] William L. Hamilton, Rex Ying, and Jure Leskovec. Inductive representation learning on large graphs. In Proceedings of the Advances in Neural Information Processing Systems, pages 1024–1034, 2017.
 
-[3] Petar Veliˇckovi ́c, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and YoshuaBengio.  Graph Attention Networks. In Proceedings of the International Conference on Learning Representations(ICLR), 2018.
+[3] Petar Veliˇckovi ́c, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio.  Graph Attention Networks. In Proceedings of the International Conference on Learning Representations(ICLR), 2018.
 
 [4] Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, and George E. Dahl. Neural Message Passing for Quantum Chemistry.  In Proceedings of the International Conference on Machine Learning, pages 1263–1272, 2017.
 
-[5] Muhan Zhang, Zhicheng Cui, Marion Neumann, and Yixin Chen. An End-to-End Deep LearningArchitecture for Graph Classification. In Proceedings of the AAAI Conference on Artificial Intelligence, 2018.
+[5] Muhan Zhang, Zhicheng Cui, Marion Neumann, and Yixin Chen. An End-to-End Deep Learning Architecture for Graph Classification. In Proceedings of the AAAI Conference on Artificial Intelligence, 2018.
 
-[6] Rex Ying,  Jiaxuan  You,  Christopher  Morris,  Xiang  Ren,  William  L.  Hamilton,  and  JureLeskovec. Hierarchical graph representation learning with differentiable pooling. In Proceedings of the Advances in Neural Information Processing Systems, pages 4805–4815, 2018.
+[6] Rex Ying,  Jiaxuan  You,  Christopher  Morris,  Xiang  Ren,  William  L.  Hamilton,  and  Jure Leskovec. Hierarchical graph representation learning with differentiable pooling. In Proceedings of the Advances in Neural Information Processing Systems, pages 4805–4815, 2018.
 
 [7] Keyulu Xu, Weihua Hu, Jure Leskovec, and Stefanie Jegelka. How Powerful Are Graph Neural Networks? In Proceedings of the International Conference on Learning Representations (ICLR), 2019.
 
@@ -181,6 +181,6 @@ The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](http
 
 [14] Shuai Zhang, Yi Tay, Lina Yao, and Qi Liu.  Quaternion knowledge graph embeddings.  In Proceedings of the Advances in Neural Information Processing Systems, pages 2731–2741, 2019.
 
-[15] Yi Tay, Aston Zhang, Anh Tuan Luu, Jinfeng Rao, Shuai Zhang, Shuohang Wang, Jie Fu, andSiu Cheung Hui. Lightweight and efficient neural natural language processing with quaternion networks.  In Proceedings of the 57th Annual Meeting of the Association for ComputationalLinguistics, pages 1494–1503, 2019.
+[15] Yi Tay, Aston Zhang, Anh Tuan Luu, Jinfeng Rao, Shuai Zhang, Shuohang Wang, Jie Fu, and Siu Cheung Hui. Lightweight and efficient neural natural language processing with quaternion networks.  In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 1494–1503, 2019.
 
-[16] Titouan Parcollet, Mohamed Morchid, and Georges Linarès.  A survey of quaternion neuralnetworks. Artificial Intelligence Review, pages 1–26, 2019.
+[16] Titouan Parcollet, Mohamed Morchid, and Georges Linarès.  A survey of quaternion neural networks. Artificial Intelligence Review, pages 1–26, 2019.
