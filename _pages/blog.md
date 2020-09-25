@@ -22,7 +22,6 @@ author_profile: true
 Recently, graph neural network (GNN)-based approaches become a principal research direction to learn low-dimensional continuous embeddings of nodes and graphs to predict node and graph labels, respectively.
 In general, GNNs use an <i>Aggregation</i> function [1, 2, 3] over neighbors of each node to update its vector representation iteratively. 
 After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain the vector representation of the entire graph [4, 5, 6, 7].
-
 Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we formulate GNNs as follows:
 
 <p align="center"> <b>h</b><sub>v</sub><sup>(l)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l-1)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
