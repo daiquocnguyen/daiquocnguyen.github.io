@@ -121,11 +121,14 @@ The learning process to predict the class labels is in the Euclidean space, so w
 <p align="center"> <b>x</b><sub>v</sub><sup>(L)</sup> = Vec(<b>h</b><sub>v</sub><sup>(L),Q</sup>) = [<b>h</b><sub>v,r</sub><sup>(L)</sup>; <b>h</b><sub>v,i</sub><sup>(L)</sup>; <b>h</b><sub>v,j</sub><sup>(L)</sup>; <b>h</b><sub>v,k</sub><sup>(L)</sup>] </p>
 
 where Vec(.) denotes a concatenation of the four components of the quaternion vector.
-To perform the semi-supervised node classification task, on top of the last <i>L</i>-th QGNN layer, we construct a GCN layer followed by a softmax activation function.
+To perform the semi-supervised node classification task, on top of the last <i>L</i>-th QGNN layer, we construct a GCN layer followed by a softmax activation function as: 
+
+<p align="center"> y<sub>v</sub> = softmax(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b> <b>x</b><sub>v</sub><sup>(L)</sup>), ∀ v ∈ V </p>
+
 
 ### QGNN for graph classification
 
-We employ a concatenation over the vector representations of node v at the different QGNN layers to construct the node embedding <b>e</b><sub>v</sub><sup>Q</sup>.
+We employ a concatenation over the vector representations <b>h</b><sub>v</sub><sup>(l),Q</sup> of node v at the different QGNN layers to construct the node embedding <b>e</b><sub>v</sub><sup>Q</sup>.
 And then we use the sum pooling to obtain the embedding <b>e</b><sub>G</sub><sup>Q</sup> of the entire graph G as: 
 
 <p align="center"> <b>e</b><sub>G</sub><sup>Q</sup> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub><sup>Q</sup> </p>
