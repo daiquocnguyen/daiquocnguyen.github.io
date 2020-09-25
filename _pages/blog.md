@@ -77,15 +77,9 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/hamilton_product1.png" width="345">
 </p>
 
-* We can express the Hamilton product of <i>q</i> and <i>p</i> in the following form:
-
-<p align="center">
-	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/hamilton_product2.png" width="375">
-</p>
-
 * Note that the Hamilton product is not commutative, i.e., <i>q</i> ⊗ <i>p</i> ≠ <i>p</i> ⊗ <i>q</i>.
 
-* <b>Concatenation.</b> We define a concatenation of two quaternion vectors <b><i>q</i></b> and <b><i>p</i></b> as: [<b><i>q</i></b>; <b><i>p</i></b>] = [<b><i>q</i></b><sub>r</sub>; <b><i>p</i></b><sub>r</sub>] + [<b><i>q</i></b><sub>i</sub>; <b><i>p</i></b><sub>i</sub>]<b>i</b> + [<b><i>q</i></b><sub>j</sub>; <b><i>p</i></b><sub>j</sub>]<b>j</b> + [<b><i>q</i></b><sub>k</sub>; <b><i>p</i></b><sub>k</sub>]<b>k</b>
+* <b>Concatenation.</b> We use a concatenation of two quaternion vectors <b><i>q</i></b> and <b><i>p</i></b> as: [<b><i>q</i></b>; <b><i>p</i></b>] = [<b><i>q</i></b><sub>r</sub>; <b><i>p</i></b><sub>r</sub>] + [<b><i>q</i></b><sub>i</sub>; <b><i>p</i></b><sub>i</sub>]<b>i</b> + [<b><i>q</i></b><sub>j</sub>; <b><i>p</i></b><sub>j</sub>]<b>j</b> + [<b><i>q</i></b><sub>k</sub>; <b><i>p</i></b><sub>k</sub>]<b>k</b>
 
 
 ## Quaternion Graph Neural Networks<a name="qgnn"></a>
