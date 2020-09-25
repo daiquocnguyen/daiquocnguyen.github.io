@@ -107,9 +107,7 @@ Thus, within the Quaternion space, the number of parameters is reduced up to fou
 Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l-1),Q</sup>, we get an entirely different output [16], leading to a different performance.
 This phenomenon enforces the model to learn the potential relations within each hidden layer and also between the different hidden layers, hence increasing the representation quality of the node and graph embeddings.
 
-### QGNN for semi-supervised node classification
-
-We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
+<b>QGNN for semi-supervised node classification.</b> We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
 The learning process to predict the class labels is in the Euclidean space, so we vectorize <b>h</b><sub>v</sub><sup>(L),Q</sup> to obtain the node representation <b>x</b><sub>v</sub><sup>(L)</sup>  as: 
 
 <p align="center"> <b>x</b><sub>v</sub><sup>(L)</sup> = Vec(<b>h</b><sub>v</sub><sup>(L),Q</sup>) = [<b>h</b><sub>v,r</sub><sup>(L)</sup>; <b>h</b><sub>v,i</sub><sup>(L)</sup>; <b>h</b><sub>v,j</sub><sup>(L)</sup>; <b>h</b><sub>v,k</sub><sup>(L)</sup>] </p>
@@ -120,9 +118,7 @@ To perform the semi-supervised node classification task, on top of the last <i>L
 <p align="center"> &ycirc;<sub>v</sub> = softmax(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b> <b>x</b><sub>v</sub><sup>(L)</sup>), ∀ v ∈ V </p>
 
 
-### QGNN for graph classification
-
-We employ a concatenation over the vector representations <b>h</b><sub>v</sub><sup>(l),Q</sup> of node v at the different QGNN layers to construct the node embedding <b>e</b><sub>v</sub><sup>Q</sup>.
+<b>QGNN for graph classification.</b> We employ a concatenation over the vector representations <b>h</b><sub>v</sub><sup>(l),Q</sup> of node v at the different QGNN layers to construct the node embedding <b>e</b><sub>v</sub><sup>Q</sup>.
 And then we use the sum pooling to obtain the embedding <b>e</b><sub>G</sub><sup>Q</sup> of the entire graph G as: 
 
 <p align="center"> <b>e</b><sub>G</sub><sup>Q</sup> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub><sup>Q</sup> </p>
