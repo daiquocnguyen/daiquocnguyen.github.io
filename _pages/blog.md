@@ -117,7 +117,7 @@ The learning process to predict the class labels is in the Euclidean space, so w
 where Vec(.) denotes a concatenation of the four components of the quaternion vector.
 To perform the semi-supervised node classification task, on top of the last <i>L</i>-th QGNN layer, we construct a GCN layer followed by a softmax activation function as: 
 
-<p align="center"> y<sub>v</sub> = softmax(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b> <b>x</b><sub>v</sub><sup>(L)</sup>), ∀ v ∈ V </p>
+<p align="center"> &ycirc;<sub>v</sub> = softmax(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b> <b>x</b><sub>v</sub><sup>(L)</sup>), ∀ v ∈ V </p>
 
 
 ### QGNN for graph classification
