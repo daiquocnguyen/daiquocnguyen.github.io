@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /blog/
+permalink: /blog/quaternion-graph-neural-networks 
 author_profile: true
 ---
 
