@@ -148,7 +148,7 @@ The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](http
 
 [2] William L. Hamilton, Rex Ying, and Jure Leskovec. Inductive representation learning on large graphs. In Proceedings of the Advances in Neural Information Processing Systems, pages 1024–1034, 2017.
 
-[3] Petar Veliˇckovi ́c, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio.  Graph Attention Networks. In Proceedings of the International Conference on Learning Representations(ICLR), 2018.
+[3] Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio.  Graph Attention Networks. In Proceedings of the International Conference on Learning Representations(ICLR), 2018.
 
 [4] Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, and George E. Dahl. Neural Message Passing for Quantum Chemistry.  In Proceedings of the International Conference on Machine Learning, pages 1263–1272, 2017.
 
@@ -158,7 +158,7 @@ The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](http
 
 [7] Keyulu Xu, Weihua Hu, Jure Leskovec, and Stefanie Jegelka. How Powerful Are Graph Neural Networks? In Proceedings of the International Conference on Learning Representations (ICLR), 2019.
 
-[8] C ̆at ̆alina Cangea, Petar Veliˇckovi ́c, Nikola Jovanovi ́c, Thomas Kipf, and Pietro Liò. Towards sparse hierarchical graph classifiers. arXiv preprint arXiv:1811.01287, 2018.
+[8] Cătălina Cangea, Petar Veličković, Nikola Jovanović, Thomas Kipf, and Pietro Liò. Towards sparse hierarchical graph classifiers. arXiv preprint arXiv:1811.01287, 2018.
 
 [9] William Rowan Hamilton. Ii. on quaternions; or on a new system of imaginaries in algebra. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 25(163):10–13,1844.
 
