@@ -14,11 +14,17 @@ News
 
 <div class="torightc" style="height:500px;overflow:auto;">
 <ul>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
+  <a href="https://daiquocnguyen.github.io/blog/quaternion-graph-neural-networks" target="_blank">A new blog</a> on Quaternion Graph Neural Networks.
+  <br />
+  [09/2020] Preprint <a href="" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>.
+</li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
   [08/2020] Preprint <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>.
   <br />
-  Paper <a href="https://arxiv.org/pdf/1911.04822.pdf">A Capsule Network-based Model for Learning Node Embeddings</a> has been accepted to CIKM 2020.
+  Paper <a href="https://arxiv.org/pdf/1911.04822.pdf" target="_blank">A Capsule Network-based Model for Learning Node Embeddings</a> has been accepted to CIKM 2020.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
