@@ -18,7 +18,7 @@ News
 <li style="margin-top:0.5em;text-align:justify"> 
   [09/2020] <a href="https://daiquocnguyen.github.io/blog/quaternion-graph-neural-networks" target="_blank">A new blog</a> on Quaternion Graph Neural Networks.
   <br />
-  Preprint <a href="" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>.
+  Preprint <a href="http://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
