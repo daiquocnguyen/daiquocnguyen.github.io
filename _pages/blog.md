@@ -32,7 +32,7 @@ where <b>h</b><sub>v</sub><sup>(l)</sup> is the vector representation of node v 
 
 There have been many designs for the <i>Aggregation</i> functions proposed in recent literature. The widely-used one is introduced in Graph Convolutional Network (GCN) [1] as:
 
-<p align="center">  <b>h</b><sub>v</sub><sup>(l)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V </p>
+<p align="center">  <b>h</b><sub>v</sub><sup>(l)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</a><sub>v,u</sub><b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V </p>
 
 Besides, a more powerful aggregation function based on multi-layer perceptrons (MLPs) (e.g., two fully-connected layers) is used in Graph Isomorphism Network (GIN-0) [7]:
 
@@ -86,7 +86,7 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 
 In our proposed QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
-<p align="center">  <b>h</b><sub>v</sub><sup>(l),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l-1),Q</sup>), ∀ v ∈ V </p>
+<p align="center">  <b>h</b><sub>v</sub><sup>(l),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</a><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l-1),Q</sup>), ∀ v ∈ V </p>
 
 where we use the superscript <sup>Q</sup> to denote the Quaternion space; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix at the <i>l</i>-th layer; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>
 
@@ -115,7 +115,7 @@ The learning process to predict the class labels is in the Euclidean space, so w
 where Vec(.) denotes a concatenation of the four components of the quaternion vector.
 To perform the semi-supervised node classification task, on top of the last <i>L</i>-th QGNN layer, we construct a GCN layer followed by a softmax activation function as: 
 
-<p align="center"> &ycirc;<sub>v</sub> = softmax(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>W</b> <b>x</b><sub>v</sub><sup>(L)</sup>), ∀ v ∈ V </p>
+<p align="center"> &ycirc;<sub>v</sub> = softmax(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</a><sub>v,u</sub><b>W</b> <b>x</b><sub>v</sub><sup>(L)</sup>), ∀ v ∈ V </p>
 
 
 <b>QGNN for graph classification.</b> We employ a concatenation over the vector representations <b>h</b><sub>v</sub><sup>(l),Q</sup> of node v at the different QGNN layers to construct the node embedding <b>e</b><sub>v</sub><sup>Q</sup>.
