@@ -88,7 +88,7 @@ In our proposed QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer i
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l-1),Q</sup>), ∀ v ∈ V </p>
 
-where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u of the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>
+where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>
 
 Correspondingly, we represent the quaternion vector <b>h</b><sub>u</sub><sup>(l-1),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
