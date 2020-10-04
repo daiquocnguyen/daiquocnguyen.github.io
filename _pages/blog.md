@@ -24,7 +24,7 @@ In general, GNNs use an <i>Aggregation</i> function [1, 2, 3] over neighbors of 
 After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain the vector representation of the entire graph [4, 5, 6, 7].
 Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we formulate GNNs as follows:
 
-<p align="center"> <b>h</b><sub>v</sub><sup>(l)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l-1)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
+<p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
 
 <p align="center"> <b>e</b><sub>G</sub> = <i>ReadOut</i>({<b>e</b><sub>v</sub>}<sub>∀v∈V</sub>) </p>
 
@@ -32,11 +32,11 @@ where <b>h</b><sub>v</sub><sup>(l)</sup> is the vector representation of node v 
 
 There have been many designs for the <i>Aggregation</i> functions proposed in recent literature. The widely-used one is introduced in Graph Convolutional Network (GCN) [1] as:
 
-<p align="center">  <b>h</b><sub>v</sub><sup>(l)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V </p>
+<p align="center">  <b>h</b><sub>v</sub><sup>(l+1)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
 
 Besides, a more powerful aggregation function based on multi-layer perceptrons (MLPs) (e.g., two fully-connected layers) is used in Graph Isomorphism Network (GIN-0) [7]:
 
-<p align="center"> <b>h</b><sub>v</sub><sup>(l)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l-1)</sup>), ∀ v ∈ V </p>
+<p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
 
 Now we can employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
 
@@ -86,20 +86,20 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 
 In our proposed QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
-<p align="center">  <b>h</b><sub>v</sub><sup>(l),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l-1),Q</sup>), ∀ v ∈ V </p>
+<p align="center">  <b>h</b><sub>v</sub><sup>(l+1),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l),Q</sup>), ∀ v ∈ V </p>
 
 where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>
 
-Correspondingly, we represent the quaternion vector <b>h</b><sub>u</sub><sup>(l-1),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
+Correspondingly, we represent the quaternion vector <b>h</b><sub>u</sub><sup>(l),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="600">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="350">
 </p>
 
 We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>h</b><sub>u</sub><sup>(l-1),Q</sup> as:
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="585">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="385">
 </p>
 
 We can see that the Quaternion space provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
