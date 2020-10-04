@@ -34,6 +34,8 @@ There have been many designs for the <i>Aggregation</i> functions proposed in re
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l+1)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
 
+where <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix, <b>W</b><sup>(l)</sup> is a weight matrix, and g is a nonlinear activation function.
+
 Besides, a more powerful aggregation function based on multi-layer perceptrons (MLPs) (e.g., two fully-connected layers) is used in Graph Isomorphism Network (GIN-0) [7]:
 
 <p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
@@ -93,10 +95,10 @@ where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</
 Correspondingly, we represent the quaternion vector <b>h</b><sub>u</sub><sup>(l),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="350">
+	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="325">
 </p>
 
-We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>h</b><sub>u</sub><sup>(l-1),Q</sup> as:
+We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>h</b><sub>u</sub><sup>(l),Q</sup> as:
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="385">
@@ -104,7 +106,7 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 
 We can see that the Quaternion space provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
 Thus, within the Quaternion space, the number of parameters is reduced up to four times, similar to the parameter saving reported in [12, 15]. 
-Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l-1),Q</sup>, we get an entirely different output [16], leading to a different performance.
+Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
 This phenomenon enforces the model to learn the potential relations within each hidden layer and also between the different hidden layers, hence increasing the representation quality of the node and graph embeddings.
 
 <b>QGNN for semi-supervised node classification.</b> We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
