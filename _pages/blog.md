@@ -141,8 +141,6 @@ Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used 
 		journal={arXiv preprint arXiv:2008.05089},
 		year={2020}
 	}
-	
-The code will be available soon at: [https://github.com/daiquocnguyen/QGNN](https://github.com/daiquocnguyen/QGNN)
 
 ## References
 
