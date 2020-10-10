@@ -42,6 +42,10 @@ News
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
+  [11/2019] Preprint <a href="https://arxiv.org/pdf/1911.04822.pdf" target="_blank">A Capsule Network-based Model for Learning Node Embeddings</a>.
+</li>
+
+<li style="margin-top:0.5em;text-align:justify"> 
   [09/2019] Preprint <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Self-Attention Network for Graph Classification</a>.
 </li>
 
