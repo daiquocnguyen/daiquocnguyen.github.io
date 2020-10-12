@@ -45,15 +45,13 @@ Now we can employ a concatenation over the vector representations of node v at t
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
 As the sum pooling can produce competitive performances [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following questions: (i) Can we move beyond the Euclidean space to enhance learning better graph representations? and (ii) Can we reduce the weight parameters in the <i>Aggregation</i> functions?
-
-To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks, named QGNN, which can be seen as a generalization of GCNs within the Quaternion space. QGNN reduces the model size up to four times and increases the representation quality of node and graph embeddings.
+While it has been considered under other contexts, in this blog, we address the following questions: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce quaternion graph neural networks (QGNN) which can be seen as a generalization of GCNs within the Quaternion space. QGNN reduces the model size up to four times and increases the node and graph embeddings' representation quality.
 
 ## Quaternion with Hamilton product<a name="background"></a>
 
 Recently the use of hyper-complex vector space has considered on the Quaternion space [9] consisting of one real and three separate imaginary axes. It provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces.
 The Quaternion space has been applied to image classification [10, 11], speech recognition [12, 13], knowledge graph [14], and natural language processing [15].
-We provide key notations and operations related to quaternion space required for our later development.
+We provide key notations and operations related to quaternion space required for later development.
 
 A quaternion <i>q</i> ∈ H is a hyper-complex number con-sisting of a real and three separate imaginary components [9] defined as: 
 
@@ -86,7 +84,7 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 
 ## Quaternion Graph Neural Networks<a name="qgnn"></a>
 
-In our proposed QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
+In QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l+1),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l),Q</sup>), ∀ v ∈ V </p>
 
@@ -104,10 +102,10 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="385">
 </p>
 
-We can see that the Quaternion space provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
-Thus, within the Quaternion space, the number of parameters is reduced up to four times, similar to the parameter saving reported in [12, 15]. 
+We can see that the Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
+Thus, we can reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
 Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
-This phenomenon enforces the model to learn the potential relations within each hidden layer and also between the different hidden layers, hence increasing the representation quality of the node and graph embeddings.
+This phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the node and graph embeddings' representation quality.
 
 <b>QGNN for semi-supervised node classification.</b> We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
 The learning process to predict the class labels is in the Euclidean space, so we vectorize <b>h</b><sub>v</sub><sup>(L),Q</sup> to obtain the node representation <b>x</b><sub>v</sub><sup>(L)</sup>  as: 
@@ -129,9 +127,9 @@ To perform the graph classification task, we also use the Vec(.) to vectorize <b
 
 ## Conclusion<a name="conclusion"></a>
 
-Graphs are ubiquitous in science, engineering and real-life applications. They are fundamental to, for example, the study of disease outbreak, human dynamics, biological networks, information retrieval to name a few. Our work provides basic building blocks for such studies, hence applicable and relevant for many research problems beyond computer science and machine learning themselves. 
-As the work represents a fundamental research problem in representing graph we believe that it does not put anyone at disadvantages. 
-Through extensive experimental evaluation, our proposed QGNN has demonstrated to achieve competitive classification performances on a wide range of benchmark datasets.
+Graphs are ubiquitous in science, engineering, and real-life applications. They are fundamental to, for example, the study of disease outbreak, human dynamics, biological networks, information retrieval, to name a few. This work provides basic building blocks for such studies, hence applicable and relevant to many research problems beyond computer science and machine learning. 
+As the work represents a fundamental research problem in representing graphs, we believe it does not put anyone at disadvantages. 
+QGNN has demonstrated to achieve competitive performances through extensive experimental evaluation on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
 
 Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
