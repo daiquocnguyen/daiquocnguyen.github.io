@@ -103,7 +103,7 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 We can see that the Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
 Thus, we can reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
 Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
-This phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the node and graph embeddings' representation quality.
+This phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the node and graph embeddings' quality.
 
 <b>QGNN for semi-supervised node classification.</b> We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
 The learning process to predict the class labels is in the Euclidean space, so we vectorize <b>h</b><sub>v</sub><sup>(L),Q</sup> to obtain the node representation <b>x</b><sub>v</sub><sup>(L)</sup>  as: 
