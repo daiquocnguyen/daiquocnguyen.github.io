@@ -16,6 +16,10 @@ News
 <ul>
   
 <li style="margin-top:0.5em;text-align:justify"> 
+  [10/2020] Get in the top 10% of high-scoring reviewers for NeurIPS 2020.
+</li>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
   [09/2020] <a href="https://daiquocnguyen.github.io/blog/quaternion-graph-neural-networks" target="_blank">A new blog</a> on Quaternion Graph Neural Networks.
   <br />
   Preprint <a href="http://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>.
@@ -85,7 +89,7 @@ Academic service
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  Program Committee: NeurIPS (2020), ICLR (2021).
+  Program Committee: NeurIPS (2020-top 10% of high-scoring reviewers), ICLR (2021), IJCAI (2021).
 </li>
 
 </ul>
