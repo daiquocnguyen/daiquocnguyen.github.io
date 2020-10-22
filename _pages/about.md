@@ -16,7 +16,7 @@ News
 <ul>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [10/2020] Get in the top 10% of high-scoring reviewers for NeurIPS 2020.
+  [10/2020] In the top 10% of high-scoring reviewers at NeurIPS 2020.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
