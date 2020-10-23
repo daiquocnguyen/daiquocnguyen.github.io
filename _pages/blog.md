@@ -19,24 +19,22 @@ author_profile: true
 4. [Conclusion](#conclusion)
 
 ## Introduction<a name="gnns"></a>
+
 Recently, graph neural network (GNN)-based approaches become a principal research direction to learn low-dimensional continuous embeddings of nodes and graphs to predict node and graph labels, respectively.
 In general, GNNs use an <i>Aggregation</i> function [1, 2, 3] over neighbors of each node to update its vector representation iteratively. 
 After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain graph embeddings [4, 5, 6, 7].
+
 Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we have:
 
 <p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
 
 where <b>h</b><sub>v</sub><sup>(l)</sup> is the vector representation of node v at the <i>l</i>-th iteration/layer, N<sub>v</sub> is the set of neighbors of node v, and <b>h</b><sub>v</sub><sup>(0)</sup> = <b>h</b><sub>v</sub>.
 
-There have been many designs for the <i>Aggregation</i> functions proposed in recent literature. The widely-used one is introduced in Graph Convolutional Network (GCN) [1] as:
+There have been many designs for the <i>Aggregation</i> functions proposed in recent literature [1, 7]. The widely-used one is introduced in Graph Convolutional Network (GCN) [1] as:
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l+1)</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l)</sup> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
 
 where <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix, <b>W</b><sup>(l)</sup> is a weight matrix, and g is a nonlinear activation function.
-
-Besides, a more powerful aggregation function based on multi-layer perceptrons (MLPs) (e.g., two fully-connected layers) is used in Graph Isomorphism Network (GIN-0) [7]:
-
-<p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
 
 Now we can employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
@@ -46,7 +44,7 @@ While it has been considered under other contexts, in this blog, we address the 
 
 ## Quaternion with Hamilton product<a name="background"></a>
 
-Recently the use of hyper-complex vector space has considered on the Quaternion space [9] consisting of one real and three separate imaginary axes. It provides highly expressive computations through the Hamilton product compared to the Euclidean and complex spaces.
+Recently the use of hyper-complex vector space has considered on the Quaternion space [9] consisting of one real and three separate imaginary axes.
 The Quaternion space has been applied to image classification [10, 11], speech recognition [12, 13], knowledge graph [14], and natural language processing [15].
 We provide key notations and operations related to quaternion space required for later development.
 
