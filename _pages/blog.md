@@ -40,7 +40,7 @@ Now we can employ a concatenation over the vector representations of node v at t
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
 As the sum pooling can produce competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space to answer this research question.
+While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space.
 
 ## Quaternion with Hamilton product<a name="background"></a>
 
