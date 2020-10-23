@@ -21,8 +21,8 @@ author_profile: true
 ## Introduction<a name="gnns"></a>
 Recently, graph neural network (GNN)-based approaches become a principal research direction to learn low-dimensional continuous embeddings of nodes and graphs to predict node and graph labels, respectively.
 In general, GNNs use an <i>Aggregation</i> function [1, 2, 3] over neighbors of each node to update its vector representation iteratively. 
-After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain the vector representation of the entire graph [4, 5, 6, 7].
-Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we formulate GNNs as follows:
+After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain graph embeddings [4, 5, 6, 7].
+Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we have:
 
 <p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
 
@@ -39,11 +39,10 @@ Besides, a more powerful aggregation function based on multi-layer perceptrons (
 <p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = MLP<sup>(l)</sup>(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <b>h</b><sub>u</sub><sup>(l)</sup>), ∀ v ∈ V </p>
 
 Now we can employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
-
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
 As the sum pooling can produce competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space. QGNN can reduce the model size and improve the embedding quality.
+While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space to answer this research question.
 
 ## Quaternion with Hamilton product<a name="background"></a>
 
@@ -86,7 +85,9 @@ In QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l+1),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l),Q</sup>), ∀ v ∈ V </p>
 
-where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>. We also represent the quaternion vector <b>h</b><sub>u</sub><sup>(l),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
+where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>. 
+
+We also represent the quaternion vector <b>h</b><sub>u</sub><sup>(l),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/quaternion_vector_matrix.png" width="325">
@@ -100,6 +101,7 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 
 The Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the inputs' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
 Thus, we can reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
+
 Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
 The phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the graph representation quality.
 
