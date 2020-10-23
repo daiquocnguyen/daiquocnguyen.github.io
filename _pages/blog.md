@@ -26,8 +26,6 @@ Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</su
 
 <p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
 
-<p align="center"> <b>e</b><sub>G</sub> = <i>ReadOut</i>({<b>e</b><sub>v</sub>}<sub>∀v∈V</sub>) </p>
-
 where <b>h</b><sub>v</sub><sup>(l)</sup> is the vector representation of node v at the <i>l</i>-th iteration/layer, N<sub>v</sub> is the set of neighbors of node v, and <b>h</b><sub>v</sub><sup>(0)</sup> = <b>h</b><sub>v</sub>.
 
 There have been many designs for the <i>Aggregation</i> functions proposed in recent literature. The widely-used one is introduced in Graph Convolutional Network (GCN) [1] as:
@@ -43,9 +41,9 @@ Besides, a more powerful aggregation function based on multi-layer perceptrons (
 Now we can employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
 
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
-As the sum pooling can produce competitive performances [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
+As the sum pooling can produce competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following questions: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce quaternion graph neural networks (QGNN) which can be seen as a generalization of GCNs within the Quaternion space. QGNN reduces the model size up to four times and increases the node and graph embeddings' quality.
+While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space. QGNN can reduce the model size and improve the embedding quality.
 
 ## Quaternion with Hamilton product<a name="background"></a>
 
@@ -100,10 +98,10 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="385">
 </p>
 
-We can see that the Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the input vectors' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
+The Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the inputs' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
 Thus, we can reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
 Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
-This phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the node and graph embeddings' quality.
+The phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the graph representation quality.
 
 <b>QGNN for semi-supervised node classification.</b> We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
 The learning process to predict the class labels is in the Euclidean space, so we vectorize <b>h</b><sub>v</sub><sup>(L),Q</sup> to obtain the node representation <b>x</b><sub>v</sub><sup>(L)</sup>  as: 
@@ -126,8 +124,7 @@ To perform the graph classification task, we also use the Vec(.) to vectorize <b
 ## Conclusion<a name="conclusion"></a>
 
 Graphs are ubiquitous in science, engineering, and real-life applications. They are fundamental to, for example, the study of disease outbreak, human dynamics, biological networks, information retrieval, to name a few. This work provides basic building blocks for such studies, hence applicable and relevant to many research problems beyond computer science and machine learning. 
-As the work represents a fundamental research problem in representing graphs, we believe it does not put anyone at disadvantages. 
-QGNN has demonstrated to achieve competitive performances through extensive experimental evaluation on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
+As the work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluation on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
 
 Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
