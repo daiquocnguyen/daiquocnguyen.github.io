@@ -124,7 +124,7 @@ To perform the graph classification task, we also use the Vec(.) to vectorize <b
 ## Conclusion<a name="conclusion"></a>
 
 Graphs are ubiquitous in science, engineering, and real-life applications. They are fundamental to, for example, the study of disease outbreak, human dynamics, biological networks, information retrieval, to name a few. This work provides basic building blocks for such studies, hence applicable and relevant to many research problems beyond computer science and machine learning. 
-As the work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluation on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
+As the work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluations on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
 
 Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
