@@ -36,9 +36,9 @@ There have been many designs for the <i>Aggregation</i> functions proposed in re
 
 where <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix, <b>W</b><sup>(l)</sup> is a weight matrix, and g is a nonlinear activation function.
 
-Now we can employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
+We follow [7] to employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
-As the sum pooling can produce competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
+As the sum pooling produces competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
 While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space.
 
@@ -83,7 +83,7 @@ In QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l+1),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l),Q</sup>), ∀ v ∈ V </p>
 
-where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v;  and g can be a nonlinear activation function such as ReLU and can be adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>. 
+where we use the superscript <sup>Q</sup> to denote the Quaternion space; <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix; <b>W</b><sup>(l),Q</sup> is a quaternion weight matrix; <b>h</b><sub>u</sub><sup>(0),Q</sup> is the quaternion feature vector of node v; and g can be a nonlinear activation function such as ReLU, and g is adopted to each quaternion element [12] as: g(<i>q</i>) = g(<i>q</i><sub>r</sub>) + g(<i>q</i><sub>i</sub>)<b>i</b> + g(<i>q</i><sub>j</sub>)<b>j</b> + g(<i>q</i><sub>k</sub>)<b>k</b>. 
 
 We also represent the quaternion vector <b>h</b><sub>u</sub><sup>(l),Q</sup> ∈ H<sup>n</sup> and the quaternion weight matrix <b>W</b><sup>(l),Q</sup> ∈ H<sup>mxn</sup> as:
 
@@ -98,7 +98,7 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 </p>
 
 The Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the inputs' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
-Thus, we can reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
+Thus, we reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
 
 Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
 The phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the graph representation quality.
