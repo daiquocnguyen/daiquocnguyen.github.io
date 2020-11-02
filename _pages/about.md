@@ -16,7 +16,7 @@ News
 <ul>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [11/2020] The extended abstract of our paper, <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>, has been accepted to the Differential Geometry meets Deep Learning (DiffGeo4DL) Workshop at NeurIPS 2020.
+  [11/2020] The extended abstract of our paper, <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>, has been accepted to the Differential Geometry meets Deep Learning (DiffGeo4DL) Workshop at NeurIPS 2020. The Pytorch and Tensorflow implementations are available at: <a href="https://github.com/daiquocnguyen/QGNN" target="_blank">https://github.com/daiquocnguyen/QGNN</a>.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
