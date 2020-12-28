@@ -16,7 +16,7 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [12/2020] Submit the thesis, entitled "Representation Learning for Graph-Structured Data", for examination.
+  [12/2020] Submit the thesis, entitled <a href="">Representation Learning for Graph-Structured Data</a>, for examination.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
