@@ -40,7 +40,7 @@ We follow [7] to employ a concatenation over the vector representations of node 
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
 As the sum pooling produces competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to enhance learning better graph representations and reduce the number of model parameters?</i> To this end, we propose to learn the node and graph embeddings within the Quaternion space and introduce our quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space.
+While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to learn better graph representations?</i> To this end, we propose to learn quaternion embeddings for nodes and graphs and introduce a novel form of quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space.
 
 ## Quaternion with Hamilton product<a name="background"></a>
 
@@ -97,10 +97,8 @@ We now express the Hamilton product ⊗ between <b>W</b><sup>(l),Q</sup> and <b>
 	<img src="https://raw.githubusercontent.com/daiquocnguyen/daiquocnguyen.github.io/master/_pages/matrix_vector_multiplication.png" width="385">
 </p>
 
-The Quaternion space allows highly expressive computations through Hamilton product compared to the Euclidean and complex vector spaces, by sharing the inputs' quaternion components during multiplication, while in the Euclidean space, all the elements of the weight matrix are different parameter variables [15]. 
-Thus, we reduce the number of model parameters up to four times within the Quaternion space, similar to the parameter saving reported in [12, 15]. 
-
-Furthermore, if we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
+If we use any slight change in the input <b>h</b><sub>u</sub><sup>(l),Q</sup>, we get an entirely different output [16], leading to a different performance.
+This phenomenon is one of the crucial reasons why the Quaternion space provides highly expressive computations through the Hamilton product compared to the Euclidean and complex vector spaces.
 The phenomenon enforces the model to learn the potential relations within each hidden layer and between the different hidden layers, hence increasing the graph representation quality.
 
 <b>QGNN for semi-supervised node classification.</b> We consider <b>h</b><sub>v</sub><sup>(L),Q</sup>, which is the quaternion vector representation of node v at the last <i>L</i>-th QGNN layer.
