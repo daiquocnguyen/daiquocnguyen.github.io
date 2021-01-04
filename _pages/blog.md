@@ -117,7 +117,7 @@ To perform the graph classification task, we also use Vec(.) to vectorize <b>e</
 
 ## Conclusion<a name="conclusion"></a>
 
-As This work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluations on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
+As this work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluations on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
 
 Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
