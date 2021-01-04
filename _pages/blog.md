@@ -115,12 +115,11 @@ And then we use the sum pooling to obtain the embedding <b>e</b><sub>G</sub><sup
 
 <p align="center"> <b>e</b><sub>G</sub><sup>Q</sup> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub><sup>Q</sup> </p>
 
-To perform the graph classification task, we also use the Vec(.) to vectorize <b>e</b><sub>G</sub><sup>Q</sup> to obtain the final graph embedding, which is fed to a single fully-connected layer followed by the softmax layer to predict the graph label.
+To perform the graph classification task, we also use Vec(.) to vectorize <b>e</b><sub>G</sub><sup>Q</sup>, which is then fed to a single fully-connected layer followed by the softmax layer to predict the graph label.
 
 ## Conclusion<a name="conclusion"></a>
 
-Graphs are ubiquitous in science, engineering, and real-life applications. They are fundamental to, for example, the study of disease outbreak, human dynamics, biological networks, information retrieval, to name a few. This work provides basic building blocks for such studies, hence applicable and relevant to many research problems beyond computer science and machine learning. 
-As the work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluations on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
+As This work represents a fundamental research problem in representing graphs, QGNN has demonstrated to achieve competitive performances through extensive experimental evaluations on a wide range of benchmark datasets for three downstream tasks of graph classification, semi-supervised node classification, and text (node) classification.
 
 Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
