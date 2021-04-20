@@ -7,13 +7,19 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a last year PhD student at <a href="https://www.monash.edu/">Monash University</a>, working on applications of deep learning to natural language processing, knowledge graph embeddings and graph neural networks, under the supervision of <a href="http://dinhphung.ml">Dinh Phung</a> and <a href="https://scholar.google.com/citations?hl=en&user=4hT6E04AAAAJ&view_op=list_works&sortby=pubdate">Tu Dinh Nguyen</a>. Before that, I obtained my M.Sc in Language Science and Technology from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a> and my B.Sc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>.
+I am working on applications of deep learning to natural language processing, knowledge graph embeddings and graph neural networks. I received my Ph.D from <a href="https://www.monash.edu/">Monash University</a>, under the supervision of <a href="http://dinhphung.ml">Dinh Phung</a> and <a href="https://scholar.google.com/citations?hl=en&user=4hT6E04AAAAJ&view_op=list_works&sortby=pubdate">Tu Dinh Nguyen</a>. Before that, I obtained my M.Sc in Language Science and Technology from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a> and my B.Sc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>.
 
 News
 ======
 
 <div class="torightc" style="height:500px;overflow:auto;">
 <ul>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
+  [04/2021] My thesis, entitled <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">"Representation Learning for Graph-Structured Data"</a>, is finally online.
+  <br />
+  Preprint <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>.
+</li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
   [11/2020] The extended abstracts of the preprint papers, <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> and <a href="http://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>, have been accepted to the NeurIPS 2020 Workshop on Differential Geometry meets Deep Learning (<a href="https://sites.google.com/view/diffgeo4dl/" target="_blank">DiffGeo4DL</a>). 
@@ -95,7 +101,7 @@ Academic service
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  Program Committee: NeurIPS (2020-top 10% of high-scoring reviewers, 2021), ICLR (2021), IJCAI (2021), ICML (2021), ECML (2021), NAACL (2021), EMNLP (2021).
+  Program Committee: NeurIPS (2020-top 10% of high-scoring reviewers, 2021), ICLR (2021), IJCAI (2021), ICML (2021), ECML-PKDD (2021), NAACL (2021), EMNLP (2021).
 </li>
 
 </ul>
