@@ -64,7 +64,7 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
   
 * <b>Scalar multiplication.</b> The multiplication of a scalar λ and a quaternion <i>q</i> is defined as: λ<i>q</i> = λ<i>q</i><sub>r</sub> + λ<i>q</i><sub>i</sub><b>i</b> + λ<i>q</i><sub>j</sub><b>j</b> + λ<i>q</i><sub>k</sub><b>k</b>
 
-* <b>Norm.</b> The norm ‖<i>q</i>‖ of a quaternion <i>q</i> is defined as: ‖<i>q</i>‖ = <i>q</i><sub>r</sub><sup>2</sup> + <i>q</i><sub>i</sub><sup>2</sup> + <i>q</i><sub>j</sub><sup>2</sup> + <i>q</i><sub>k</sub><sup>2</sup>
+* <b>Norm.</b> The norm ‖<i>q</i>‖ of a quaternion <i>q</i> is defined as: ‖<i>q</i>‖ = sqrt(<i>q</i><sub>r</sub><sup>2</sup> + <i>q</i><sub>i</sub><sup>2</sup> + <i>q</i><sub>j</sub><sup>2</sup> + <i>q</i><sub>k</sub><sup>2</sup>)
 
 * <b>Hamilton  product.</b> The  Hamilton  product ⊗ (i.e., the quaternion multiplication) of two quaternions <i>q</i> and <i>p</i> is defined as:
 
