@@ -20,7 +20,7 @@ author_profile: true
 
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank"><b>R-MeN</b></a>: A transformer-based knowledge graph embedding model for triple classification and search personalization (ACL 2020).
+ <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank"><b>R-MeN</b></a>: A transformer-based knowledge graph embedding model (ACL 2020).
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
@@ -32,11 +32,11 @@ author_profile: true
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank"><b>Caps2NE</b></a>: A capsule network-based model for knowledge graph completion and search personalization (NAACL-HLT 2019).
+ <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank"><b>Caps2NE</b></a>: A capsule network-based knowledge graph embedding model (NAACL-HLT 2019).
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank"><b>ConvKB</b></a>: A CNN-based model for knowledge graph embeddings (NAACL-HLT 2018).
+ <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank"><b>ConvKB</b></a>: A CNN-based knowledge graph embedding model (NAACL-HLT 2018).
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
