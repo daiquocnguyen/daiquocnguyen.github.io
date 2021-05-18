@@ -52,7 +52,7 @@ News
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [05/2020] Release the Pytorch implementation of our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">U2GNN (Graph-Transformer)</a> model for graph classification.
+  [05/2020] Release the Pytorch implementation of our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">Graph Transformer</a> for graph classification task.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
