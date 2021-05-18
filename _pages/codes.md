@@ -22,17 +22,21 @@ author_profile: true
 <li style="margin-top:0.5em;text-align:justify">
  <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank"><b>R-MeN</b></a>: A transformer-based knowledge graph embedding model (ACL 2020).
 </li>
- 
+
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk Transformer</b></a>: An unsupervised node embedding model - leveraging transformer self-attention networks to learn node embeddings from random walks (ECML-PKDD 2020).
+ <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk-Transformer</b></a>: An unsupervised node embedding model - leveraging transformer self-attention networks to learn node embeddings from random walks (ECML-PKDD 2020).
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank"><b>Graph Transformer</b></a>: Universal Graph Transformer Self-Attention Networks.
+ <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank"><b>Graph-Transformer</b></a>: Universal Graph Transformer Self-Attention Networks.
+</li>
+
+<li style="margin-top:0.5em;text-align:justify">
+ <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank"><b>Caps2NE</b></a>: A capsule network-based unsupervised node embedding model (CIKM 2020).
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank"><b>Caps2NE</b></a>: A capsule network-based knowledge graph embedding model (NAACL-HLT 2019).
+ <a href="https://github.com/daiquocnguyen/CapsE" target="_blank"><b>CapsE</b></a>: A capsule network-based knowledge graph embedding model (NAACL-HLT 2019).
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
