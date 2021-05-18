@@ -44,11 +44,8 @@ While it has been considered under other contexts, in this blog, we address the 
 
 ## Quaternion Background<a name="background"></a>
 
-Recently the use of hyper-complex vector space has considered on the Quaternion space [9] consisting of one real and three separate imaginary axes.
-The Quaternion space has been applied to image classification [10, 11], speech recognition [12, 13], knowledge graph [14], and machine translation [15].
-We provide key notations and operations related to quaternion space required for later development.
-
-A quaternion <i>q</i> ∈ H is a hyper-complex number con-sisting of a real and three separate imaginary components [9] defined as: 
+The Quaternion space has been applied to image classification [10, 11], speech recognition [12, 13], knowledge graph completion [14], and machine translation [15]. 
+A quaternion <i>q</i> ∈ H is a hyper-complex number [9], consisting of a real and three separate imaginary components, which is defined as: 
 
 <p align="center"> <i>q</i> = <i>q</i><sub>r</sub> + <i>q</i><sub>i</sub><b>i</b> + <i>q</i><sub>j</sub><b>j</b> + <i>q</i><sub>k</sub><b>k</b> </p>
 
@@ -74,7 +71,7 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 
 * Note that the Hamilton product is not commutative, i.e., <i>q</i> ⊗ <i>p</i> ≠ <i>p</i> ⊗ <i>q</i>.
 
-* <b>Concatenation.</b> We use a concatenation of two quaternion vectors <b><i>q</i></b> and <b><i>p</i></b> as: [<b><i>q</i></b>; <b><i>p</i></b>] = [<b><i>q</i></b><sub>r</sub>; <b><i>p</i></b><sub>r</sub>] + [<b><i>q</i></b><sub>i</sub>; <b><i>p</i></b><sub>i</sub>]<b>i</b> + [<b><i>q</i></b><sub>j</sub>; <b><i>p</i></b><sub>j</sub>]<b>j</b> + [<b><i>q</i></b><sub>k</sub>; <b><i>p</i></b><sub>k</sub>]<b>k</b>
+* <b>Concatenation.</b> A concatenation of two quaternion vectors <b><i>q</i></b> and <b><i>p</i></b> is defined as: [<b><i>q</i></b>; <b><i>p</i></b>] = [<b><i>q</i></b><sub>r</sub>; <b><i>p</i></b><sub>r</sub>] + [<b><i>q</i></b><sub>i</sub>; <b><i>p</i></b><sub>i</sub>]<b>i</b> + [<b><i>q</i></b><sub>j</sub>; <b><i>p</i></b><sub>j</sub>]<b>j</b> + [<b><i>q</i></b><sub>k</sub>; <b><i>p</i></b><sub>k</sub>]<b>k</b>
 
 
 ## Quaternion Graph Neural Networks<a name="qgnn"></a>
