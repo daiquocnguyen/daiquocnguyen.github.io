@@ -103,7 +103,7 @@ Academic service
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  Program Committee: NeurIPS (2020-top 10% of high-scoring reviewers, 2021), ICLR (2021), IJCAI (2021), ICML (2021), ECML-PKDD (2021), NAACL (2021), EMNLP (2021).
+  Program Committee: NAACL (2021), EMNLP (2021), NeurIPS (2020-top 10% of high-scoring reviewers, 2021), ICML (2021), ICLR (2021), ECML-PKDD (2021), IJCAI (2021).
 </li>
 
 </ul>
