@@ -20,11 +20,11 @@ author_profile: true
 
 ## Introduction<a name="gnns"></a>
 
-Recently, graph neural network (GNN)-based approaches become a principal research direction to learn low-dimensional continuous embeddings of nodes and graphs to predict node and graph labels, respectively.
+Recently, graph neural networks (GNNs) become a principal research direction to learn low-dimensional continuous embeddings for nodes and graphs.
 In general, GNNs use an <i>Aggregation</i> function [1, 2, 3] over neighbors of each node to update its vector representation iteratively. 
 After that, GNNs utilize a <i>ReadOut</i> pooling function to obtain graph embeddings [4, 5, 6, 8].
 
-Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we have:
+Mathematically, given a graph G = (V, E, {<b>h</b><sub>v</sub>}<sub>∀v∈V</sub>), where V is a set of nodes, E is a set of edges, and <b>h</b><sub>v</sub> is the Euclidean feature vector of node v ∈ V, we can formulate GNNs as follows:
 
 <p align="center"> <b>h</b><sub>v</sub><sup>(l+1)</sup> = <i>Aggregation</i>({<b>h</b><sub>u</sub><sup>(l)</sup>}<sub>u∈N<sub>v</sub>∪{v}</sub>) </p>
 
@@ -36,16 +36,16 @@ There have been many designs for the <i>Aggregation</i> functions proposed in re
 
 where <i>a</i><sub>v,u</sub> is an edge constant between nodes v and u in the re-normalized adjacency matrix, <b>W</b><sup>(l)</sup> is a weight matrix, and g is a nonlinear activation function.
 
-We follow [7] to employ a concatenation over the vector representations of node v at the different layers to construct the node embedding <b>e</b><sub>v</sub>.
+We can follow [7] to employ a concatenation over the vector representations of node v across the different layers to construct the node embedding <b>e</b><sub>v</sub>.
 The graph-level <i>ReadOut</i> function can be a simple sum pooling or a complex pooling such as sort pooling [5], hierarchical pooling [8], and differentiable pooling [6]. 
-As the sum pooling produces competitive accuracies for graph classification task [7], we utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
+As the sum pooling produces competitive accuracies for graph classification task [7], we can utilize the sum pooling to obtain the embedding <b>e</b><sub>G</sub> of the entire graph G as: <b>e</b><sub>G</sub> = ∑<sub>∀v∈V</sub> <b>e</b><sub>v</sub>.
 
-While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to learn better graph representations?</i> To this end, we propose to learn quaternion embeddings for nodes and graphs and introduce a novel form of quaternion graph neural networks (QGNN) to generalize GCNs within the Quaternion space.
+While it has been considered under other contexts, in this blog, we address the following question: <i>Can we move beyond the Euclidean space to learn better graph representations?</i> To this end, we propose to learn embeddings for nodes and graphs within the Quaternion space and introduce a novel form of Quaternion Graph Neural Networks (QGNN).
 
-## Quaternion with Hamilton product<a name="background"></a>
+## Quaternion Background<a name="background"></a>
 
 Recently the use of hyper-complex vector space has considered on the Quaternion space [9] consisting of one real and three separate imaginary axes.
-The Quaternion space has been applied to image classification [10, 11], speech recognition [12, 13], knowledge graph [14], and natural language processing [15].
+The Quaternion space has been applied to image classification [10, 11], speech recognition [12, 13], knowledge graph [14], and machine translation [15].
 We provide key notations and operations related to quaternion space required for later development.
 
 A quaternion <i>q</i> ∈ H is a hyper-complex number con-sisting of a real and three separate imaginary components [9] defined as: 
@@ -79,7 +79,7 @@ where <b><i>q</i></b><sub>r</sub>, <b><i>q</i></b><sub>i</sub>, <b><i>q</i></b><
 
 ## Quaternion Graph Neural Networks<a name="qgnn"></a>
 
-In QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
+In our QGNN, the <i>Aggregation</i> function at the <i>l</i>-th layer is defined as:
 
 <p align="center">  <b>h</b><sub>v</sub><sup>(l+1),Q</sup> = g(∑<sub>u∈N<sub>v</sub>∪{v}</sub> <i>a</i><sub>v,u</sub><b>W</b><sup>(l),Q</sup> ⊗ <b>h</b><sub>u</sub><sup>(l),Q</sup>), ∀ v ∈ V </p>
 
