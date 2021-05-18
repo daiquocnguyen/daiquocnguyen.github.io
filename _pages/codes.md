@@ -44,7 +44,7 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/SAR14" target="_blank"><b>SAR14</b></a>: A rating-based sentiment dataset of IMDB movie reviews (WASSA 2014).
+ <a href="https://github.com/daiquocnguyen/SAR14" target="_blank"><b>SAR14</b></a>: A sentiment dataset of 234K IMDB movie reviews (WASSA 2014).
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
