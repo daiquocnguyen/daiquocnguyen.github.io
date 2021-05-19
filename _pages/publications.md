@@ -4,9 +4,10 @@ title: ""
 permalink: /publications/
 author_profile: true
 ---
-(Last updated: 15 August 2020) 
 
 Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
+
+(Last updated: 15 August 2020) 
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2020]</b> </span>
 
