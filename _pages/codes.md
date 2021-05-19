@@ -24,7 +24,7 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk-Transformer</b></a>: An transformer-based unsupervised node embedding model (ECML-PKDD 2020).
+ <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk-Transformer</b></a>: A transformer-based unsupervised node embedding model (ECML-PKDD 2020).
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
