@@ -15,7 +15,7 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/QuatRE" target="_blank"><b>QuatRE</b></a>: An effective quaternion knowledge graph embedding model - utilizing two relation-aware rotations to better learn quaternion embeddings for entities and relations.
+ <a href="https://github.com/daiquocnguyen/QuatRE" target="_blank"><b>QuatRE</b></a>: A relation-aware quaternion embedding model for knowledge graph completion.
 </li>
 
 
@@ -24,7 +24,7 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk-Transformer</b></a>: An unsupervised node embedding model - leveraging transformer self-attention networks to learn node embeddings from random walks (ECML-PKDD 2020).
+ <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk-Transformer</b></a>: An transformer-based unsupervised node embedding model (ECML-PKDD 2020).
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
