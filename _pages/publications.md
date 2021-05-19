@@ -22,8 +22,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
  
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
-  <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>. 
-  <i> arXiv preprint arXiv:2008.05089</i>.
+  <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>. <i> arXiv preprint arXiv:2008.05089</i>. <a href="https://github.com/daiquocnguyen/QGNN/" target="_blank">[Code]</a>
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
