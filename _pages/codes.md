@@ -15,9 +15,12 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/QuatRE" target="_blank"><b>QuatRE</b></a>: A relation-aware quaternion embedding model for knowledge graph completion.
+ <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank"><b>Graph-Transformer</b></a>: Universal Graph Transformer Self-Attention Networks.
 </li>
 
+<li style="margin-top:0.5em;text-align:justify">
+ <a href="https://github.com/daiquocnguyen/QuatRE" target="_blank"><b>QuatRE</b></a>: A relation-aware quaternion embedding model for knowledge graph completion.
+</li>
 
 <li style="margin-top:0.5em;text-align:justify">
  <a href="https://github.com/daiquocnguyen/R-MeN" target="_blank"><b>R-MeN</b></a>: A transformer-based knowledge graph embedding model (ACL 2020).
@@ -25,10 +28,6 @@ author_profile: true
 
 <li style="margin-top:0.5em;text-align:justify">
  <a href="https://github.com/daiquocnguyen/Walk-Transformer" target="_blank"><b>Walk-Transformer</b></a>: A transformer-based unsupervised node embedding model (ECML-PKDD 2020).
-</li>
- 
-<li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank"><b>Graph-Transformer</b></a>: Universal Graph Transformer Self-Attention Networks.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
