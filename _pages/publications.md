@@ -7,11 +7,39 @@ author_profile: true
 
 Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
-(Last updated: 15 August 2020) 
+(Last updated: 30 April 2021) 
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2021]</b> </span>
+
+<ul>
+
+<li style="margin-top:0.5em;text-align:justify">
+  Thanh Vu and <b>Dai Quoc Nguyen</b>. <b>2021</b>. 
+  <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Translating Chinese Novels to Vietnamese</a>. <i> arXiv preprint arXiv:2104.12128</i>. 
+</li>
+
+<li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>. <b>2021</b>. 
+  <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">Representation Learning for Graph-Structured Data</a>. <b>PhD thesis, Monash University, Australia</b>. 
+</li>
+ 
+<li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>, Vinh Tong, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. 
+  <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>. <i> arXiv preprint arXiv:2104.07396</i>. 
+</li>
+
+ 
+</ul>
+
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2020]</b> </span>
 
 <ul>
+ 
+<li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
+  <a href="https://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>. <i> arXiv preprint arXiv:2009.12517</i>. <a href="https://github.com/daiquocnguyen/QuatRE/" target="_blank">[Code]</a>
+</li>
  
 <li style="margin-top:0.5em;text-align:justify">
  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2020</b>. 
