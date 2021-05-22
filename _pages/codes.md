@@ -43,7 +43,7 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/EventPrediction" target="_blank"><b>Event-Prediction</b></a>: The WikiHow-based and DeScript-based datasets for event prediction (IJCNLP 2017).
+ <a href="https://github.com/daiquocnguyen/EventPrediction" target="_blank"><b>Event-Prediction</b></a>: Two datasets for event prediction (IJCNLP 2017).
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
