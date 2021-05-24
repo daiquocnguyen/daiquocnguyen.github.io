@@ -19,7 +19,7 @@ author_profile: true
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
- <a href="https://github.com/daiquocnguyen/QuatRE" target="_blank"><b>QuatRE</b></a>: A relation-aware quaternion embedding knowledge graph model.
+ <a href="https://github.com/daiquocnguyen/QuatRE" target="_blank"><b>QuatRE</b></a>: A relation-aware quaternion knowledge graph embedding model.
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
