@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am working on applications of deep learning to natural language processing, knowledge graph embeddings and graph neural networks. I received my PhD from the <a href="https://www.monash.edu/it/dsai">Department of Data Science and AI</a> at <a href="https://www.monash.edu/">Monash University</a> under the supervision of <a href="http://dinhphung.ml">Dinh Phung</a> and <a href="https://scholar.google.com/citations?hl=en&user=4hT6E04AAAAJ&view_op=list_works&sortby=pubdate">Tu Dinh Nguyen</a>. Before that, I obtained my MSc in Language Science and Technology from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a> and my BSc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>.
+I am working on applications of deep learning to natural language processing, knowledge graph embeddings and graph neural networks. I received my PhD from the <a href="https://www.monash.edu/it/dsai">Department of Data Science and AI</a> at <a href="https://www.monash.edu/">Monash University</a>, Australia. Before that, I obtained my MSc from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, Germany and my BSc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>, Vietnam.
 
 News
 ======
