@@ -1,10 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Publications & Codes"
     url: /publications
-    
-  - title: "Resources & Codes"
-    url: /codes
     
   - title: "Blog"
     url: /blog/quaternion-graph-neural-networks
