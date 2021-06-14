@@ -114,7 +114,7 @@ To perform the graph classification task, we also use Vec(.) to vectorize <b>e</
 
 ## Conclusion<a name="conclusion"></a>
 
-As this work represents a fundamental research problem in representing graphs, QGNN has demonstrated to be useful through experimental evaluations for downstream tasks of graph classification, node classification, and text classification.
+As this work represents a fundamental research problem in representing graphs, QGNN has demonstrated to be useful through experimental evaluations for downstream tasks such as graph classification and node classification.
 
 Please cite [our paper](https://arxiv.org/abs/2008.05089) whenever QGNN is used to produce published results or incorporated into other software:
 
