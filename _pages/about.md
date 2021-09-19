@@ -14,6 +14,12 @@ News
 
 <div class="torightc" style="height:500px;overflow:auto;">
 <ul>
+
+<li style="margin-top:0.5em;text-align:justify"> 
+  [09/2021] Paper <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> has been accepted to ACML 2021. 
+  <br />
+  Release the Pytorch implementations of SimQGNN for knowledge graph completion and TextQGNN for inductive text classification.
+</li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
   [04/2021] My thesis, entitled <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">"Representation Learning for Graph-Structured Data"</a>, is finally online.
