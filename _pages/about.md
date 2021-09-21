@@ -22,11 +22,11 @@ News
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [08/2021] Release the Pytorch implementation of applying our <a href="https://github.com/daiquocnguyen/Graph-Transformer/tree/master/TextGNN" target="_blank">Graph Transformer</a> Variant 2 for inductive text classification.
+  [08/2021] Release the Pytorch implementation of applying our <a href="https://github.com/daiquocnguyen/Graph-Transformer/tree/master/TextGNN" target="_blank">Graph Transformer Variant 2</a> for inductive text classification.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [05/2021] Release the Pytorch implementation for Variant 2 of our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">Graph Transformer</a> to leverage the transformer directly on the input graph.
+  [05/2021] Release the Pytorch implementation for Variant 2 of our <a href="https://github.com/daiquocnguyen/Graph-Transformer/tree/master/UGformerV2_PyTorch" target="_blank">Graph Transformer</a> to leverage the transformer directly on the input graph.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
