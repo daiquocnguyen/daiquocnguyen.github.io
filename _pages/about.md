@@ -22,6 +22,14 @@ News
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
+  [08/2021] Release the Pytorch implementation of applying our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">Graph Transformer</a> Variant 2 for inductive text classification.
+</li>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
+  [05/2021] Release the Pytorch implementation for Variant 2 of our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">Graph Transformer</a> to leverage the transformer directly on the input graph.
+</li>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
   [04/2021] My thesis, entitled <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">"Representation Learning for Graph-Structured Data"</a>, is finally online.
   <br />
   Preprint <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>.
