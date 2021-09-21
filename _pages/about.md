@@ -18,11 +18,11 @@ News
 <li style="margin-top:0.5em;text-align:justify"> 
   [09/2021] Paper <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> has been accepted to ACML 2021. 
   <br />
-  Release the Pytorch implementations of SimQGNN for knowledge graph completion and TextQGNN for inductive text classification.
+  Release the Pytorch implementations of <a href="https://github.com/daiquocnguyen/QGNN/tree/master/SimQGNN" target="_blank">SimQGNN</a> for knowledge graph completion and <a href="https://github.com/daiquocnguyen/QGNN/tree/master/TextQGNN" target="_blank">TextQGNN</a> for inductive text classification.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [08/2021] Release the Pytorch implementation of applying our <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">Graph Transformer</a> Variant 2 for inductive text classification.
+  [08/2021] Release the Pytorch implementation of applying our <a href="https://github.com/daiquocnguyen/Graph-Transformer/tree/master/TextGNN" target="_blank">Graph Transformer</a> Variant 2 for inductive text classification.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
