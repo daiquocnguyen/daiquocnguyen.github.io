@@ -40,6 +40,10 @@ News
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
+  [02/2021] I will be served as an expert reviewer for ICML 2021.
+</li>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
   [11/2020] The extended abstracts of the preprint papers, <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> and <a href="http://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>, have been accepted to the NeurIPS 2020 Workshop on Differential Geometry meets Deep Learning (<a href="https://sites.google.com/view/diffgeo4dl/" target="_blank">DiffGeo4DL</a>).
 </li>
   
