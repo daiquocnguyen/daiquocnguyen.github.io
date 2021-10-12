@@ -16,7 +16,7 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  [10/2021] I will join Oracle Corporation Australia from 18 October.
+  [10/2021] I have joined Oracle Corporation Australia.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
