@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am interested in deep learning applications to natural language processing, knowledge graph embeddings, and graph neural networks. I received my PhD from the <a href="https://www.monash.edu/it/dsai">Department of Data Science and AI</a> at <a href="https://www.monash.edu/">Monash University</a>, Australia, in May 2021. Before that, I obtained my MSc from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, Germany, and my BSc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>, Vietnam.
+I am a researcher at Oracle Corporation Australia. My research interest includes deep learning, graph neural networks, and domain applications such as natural language processing (NLP) and cybersecurity. I received my PhD from the <a href="https://www.monash.edu/it/dsai">Department of Data Science and AI</a> at <a href="https://www.monash.edu/">Monash University</a>, Australia, in May 2021. Before that, I obtained my MSc from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, Germany, and my BSc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>, Vietnam.
 
 News
 ======
@@ -15,6 +15,10 @@ News
 <div class="torightc" style="height:500px;overflow:auto;">
 <ul>
 
+<li style="margin-top:0.5em;text-align:justify"> 
+  [10/2021] I will join Oracle Corporation Australia from 18 October.
+</li>
+  
 <li style="margin-top:0.5em;text-align:justify"> 
   [09/2021] Paper <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> has been accepted to ACML 2021. 
   <br />
