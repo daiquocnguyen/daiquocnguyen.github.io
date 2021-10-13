@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a researcher at Oracle Corporation Australia. My research interest includes deep learning, graph neural networks, and domain applications such as natural language processing (NLP), information retrieval (IR), and cybersecurity. I received my PhD from the <a href="https://www.monash.edu/it/dsai">Department of Data Science and AI</a> at <a href="https://www.monash.edu/">Monash University</a>, Australia, in May 2021. Before that, I obtained my MSc from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, Germany, and my BSc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>, Vietnam.
+I am a researcher at Oracle Corporation Australia. My research interest includes deep learning, graph neural networks, and domain applications such as natural language processing (NLP), information retrieval (IR), and cybersecurity. I received my PhD from the <a href="https://www.monash.edu/it/dsai">Department of Data Science and AI</a> at <a href="https://www.monash.edu/">Monash University</a>, Australia, in May 2021. Before that, I obtained my MSc from <a href="https://www.uni-saarland.de/en/home.html">Saarland University</a> and my BSc from <a href="https://e.uet.vnu.edu.vn">VNU University of Engineering and Technology</a>.
 
 News
 ======
