@@ -16,6 +16,10 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
+  [11/2021] Paper <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Vietnamese</a> has been accepted to ALTA 2021. 
+</li>
+
+<li style="margin-top:0.5em;text-align:justify"> 
   [10/2021] I have joined Oracle Corporation Australia.
   <br />
   Preprint <a href="https://arxiv.org/abs/2110.07317" target="_blank">ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection</a>.
@@ -40,7 +44,7 @@ News
   <br />
   Preprint <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>.
   <br />
-  Preprint <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Translating Chinese Novels to Vietnamese</a>.
+  Preprint <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Vietnamese</a>.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
