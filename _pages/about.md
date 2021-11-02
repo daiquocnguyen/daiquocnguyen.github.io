@@ -44,7 +44,7 @@ News
   <br />
   Preprint <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>.
   <br />
-  Preprint <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Vietnamese</a>.
+  Preprint <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Translating Chinese Novels to Vietnamese</a>.
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
