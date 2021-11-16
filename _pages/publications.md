@@ -17,7 +17,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
   <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2021</b>. 
   <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a>. 
   In <i> Proceedings of the 13th Asian Conference on Machine Learning</i> (ACML). 
-  <a href="https://github.com/daiquocnguyen/QGNN/" target="_blank">[Code]</a>
+  <a href="https://github.com/tienthanhdhcn/VnAPE" target="_blank">[Code]</a>
 </li>
 
 <li style="margin-top:0.5em;text-align:justify">
