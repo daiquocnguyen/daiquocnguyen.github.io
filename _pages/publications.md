@@ -39,7 +39,7 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 </li>
  
 <li style="margin-top:0.5em;text-align:justify">
-  <b>Dai Quoc Nguyen</b>, Vinh Tong, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. 
+  <b>Dai Quoc Nguyen</b>*, Vinh Tong*, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. 
   <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>. <i> arXiv preprint arXiv:2104.07396</i>. 
 </li>
 
