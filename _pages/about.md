@@ -26,7 +26,7 @@ News
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [09/2021] Paper <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> has been accepted to ACML 2021. 
+  [09/2021] Paper <a href="https://arxiv.org/pdf/2008.05089.pdf" target="_blank">Quaternion Graph Neural Networks</a> has been accepted to ACML 2021 (for a long oral presentation).
   <br />
   Release the Pytorch implementations of <a href="https://github.com/daiquocnguyen/QGNN/tree/master/SimQGNN" target="_blank">SimQGNN</a> and <a href="https://github.com/daiquocnguyen/GNN-NoGE" target="_blank">GNN-NoGE</a> for knowledge graph completion.
 </li>
