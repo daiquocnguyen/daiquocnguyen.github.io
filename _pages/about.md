@@ -129,7 +129,7 @@ Academic service
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify"> 
-  Program Committee: NeurIPS (2020, 2021), ICML (2021), ICLR (2021, 2022), IJCAI (2021), AAAI (2022), NAACL (2021), EMNLP (2021), and ACL Rolling Review.
+  Program Committee: NeurIPS (2020, 2021), ICML (2021), ICLR (2021, 2022), IJCAI (2021), AAAI (2022), NAACL (2021), EMNLP (2021), and ACL (2022).
 </li>
 
 </ul>
