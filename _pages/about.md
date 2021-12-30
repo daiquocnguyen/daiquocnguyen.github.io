@@ -16,7 +16,7 @@ News
 <ul>
   
 <li style="margin-top:0.5em;text-align:justify"> 
-  [12/2021] Paper <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a> will appear in Proceedings of WSDM 2022 (Demonstrations). 
+  [12/2021] Paper <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a> will appear in Proceedings of WSDM 2022. 
 </li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
