@@ -25,6 +25,12 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2021]</b> </span>
 
 <ul>
+
+<li style="margin-top:0.5em;text-align:justify">
+  Vinh Tong, <b>Dai Quoc Nguyen</b>, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. 
+  <a href="https://arxiv.org/abs/2112.09231" target="_blank">Two-view Graph Neural Networks for Knowledge Graph Completion</a>. 
+  <i> arXiv preprint arXiv:2112.09231</i>. 
+</li>
   
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2021</b>. 
