@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : ""
   location         : "Australia"
-  employer         : "https://labs.oracle.com/pls/apex/f?p=94065:11:100482909130341:5396"
+  employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=AmB7MhUAAAAJ&hl=en"
   email            : "[name]@oracle.com where [name]=firstname.lastname"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
