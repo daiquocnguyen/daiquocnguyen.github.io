@@ -14,6 +14,10 @@ News
 
 <div class="torightc" style="height:500px;overflow:auto;">
 <ul>
+  
+<li style="margin-top:0.5em;text-align:justify"> 
+  [12/2021] Paper <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a> will appear in Proceedings of WSDM 2022 (Demonstrations). 
+</li>
 
 <li style="margin-top:0.5em;text-align:justify"> 
   [11/2021] Paper <a href="https://arxiv.org/abs/2104.12128" target="_blank">Automatic Post-Editing for Vietnamese</a> has been accepted to ALTA 2021. 
