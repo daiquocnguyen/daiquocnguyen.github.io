@@ -7,7 +7,19 @@ author_profile: true
 
 Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
-(Last updated: 09 November 2021) 
+(Last updated: 30 December 2021) 
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2022]</b> </span>
+
+<ul>
+  
+<li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>*, Vinh Tong*, Dinh Phung and Dat Quoc Nguyen. <b>2022</b>. 
+  <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>. 
+  In <i> Proceedings of the 15th ACM International Conference on Web Search and Data Mining</i> (WSDM).
+</li>
+
+</ul>
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2021]</b> </span>
 
@@ -36,11 +48,6 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>. <b>2021</b>. 
   <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">Representation Learning for Graph-Structured Data</a>. <b>PhD thesis, Monash University, Australia</b>. 
-</li>
- 
-<li style="margin-top:0.5em;text-align:justify">
-  <b>Dai Quoc Nguyen</b>*, Vinh Tong*, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. 
-  <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>. <i> arXiv preprint arXiv:2104.07396</i>. 
 </li>
 
  
