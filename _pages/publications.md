@@ -54,7 +54,8 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>. <b>2021</b>. 
-  <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">Representation Learning for Graph-Structured Data</a>. <b>PhD dissertation, Monash University, Australia</b>. 
+  <a href="https://bridges.monash.edu/articles/thesis/Representation_Learning_for_Graph-Structured_Data/14450496" target="_blank">Representation Learning for Graph-Structured Data</a>. 
+  <i>PhD dissertation, Monash University, Australia</i>. 
 </li>
   
 </ul>
