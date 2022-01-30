@@ -16,14 +16,14 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <li style="margin-top:0.5em;text-align:justify">
   Van-Anh Nguyen*, <b>Dai Quoc Nguyen</b>*, Van Nguyen, Trung Le, Quan Hung Tran and Dinh Phung. <b>2022</b>. 
   <a href="https://arxiv.org/abs/2110.07317" target="_blank">ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection</a>. 
-  In <i> Proceedings of the 44th International Conference on Software Engineering</i> (ICSE 2022) - Demonstrations Track.
+  In <i> Proceedings of the 44th International Conference on Software Engineering</i> (ICSE 2022 Demonstrations Track).
   <a href="https://github.com/daiquocnguyen/GNN-ReGVD" target="_blank">[Code]</a>
 </li>
   
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>*, Vinh Tong*, Dinh Phung and Dat Quoc Nguyen. <b>2022</b>. 
   <a href="https://arxiv.org/abs/2104.07396" target="_blank">Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction</a>. 
-  In <i> Proceedings of the 15th ACM International Conference on Web Search and Data Mining</i> (WSDM).
+  In <i> Proceedings of the 15th ACM International Conference on Web Search and Data Mining</i> (WSDM 2022 Demonstrations Track).
   <a href="https://github.com/daiquocnguyen/GNN-NoGE" target="_blank">[Code]</a>
 </li>
 
