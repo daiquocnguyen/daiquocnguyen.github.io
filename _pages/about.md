@@ -16,7 +16,7 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify">
-  Paper <a href="https://arxiv.org/abs/2110.07317" target="_blank">ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection</a> has been accepted to ICSE 2022 (Demonstrations).
+  Paper <a href="https://arxiv.org/abs/2110.07317" target="_blank">ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection</a> has been accepted to ICSE 2022 (Demonstrations Track).
 </li>
   
 <li style="margin-top:0.5em;text-align:justify"> 
