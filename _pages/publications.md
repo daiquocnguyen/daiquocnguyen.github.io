@@ -7,7 +7,7 @@ author_profile: true
 
 Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
-(Last updated: 30 December 2021) 
+(Last updated: 02 Feb 2022) 
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2022]</b> </span>
 
