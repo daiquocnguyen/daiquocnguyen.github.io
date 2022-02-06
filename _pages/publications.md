@@ -218,7 +218,7 @@ for Part-of-Speech Tagging</a>.
 
 <li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, <b>Dai Quoc Nguyen</b>, Dang Duc Pham and Son Bao Pham. <b>2014</b>. 
   <a href="http://www.aclweb.org/anthology/E14-2005" target="_blank">RDRPOSTagger: A Ripple Down Rules-based Part-Of-Speech Tagger</a>. 
-  In <i>Proceedings of the Demonstrations at the 14th Conference of the European Chapter of the Association for Computational Linguistics</i> (EACL), pages 17-20.
+  In <i>Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics: Demonstrations</i> (EACL), pages 17-20.
   <a href="https://github.com/datquocnguyen/RDRPOSTagger" target="_blank">[Code]</a>
 </li>
 
