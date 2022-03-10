@@ -7,16 +7,31 @@ author_profile: true
 
 Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=AmB7MhUAAAAJ&view_op=list_works&sortby=pubdate)
 
-(Last updated: 02 Feb 2022) 
+(Last updated: March 2022) 
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2022]</b> </span>
 
 <ul>
   
 <li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
+  <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Graph Transformer Self-Attention Networks</a>. 
+  In <i>Proceedings of the Web Conference: Poster and Demo Track</i> (WWW 2022). 
+  <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">[Code]</a>
+</li>
+
+  
+<li style="margin-top:0.5em;text-align:justify">
+  <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
+  <a href="https://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>. 
+  In <i>Proceedings of the Web Conference: Poster and Demo Track</i> (WWW 2022). 
+  <a href="https://github.com/daiquocnguyen/QuatRE/" target="_blank">[Code]</a>
+</li>
+  
+<li style="margin-top:0.5em;text-align:justify">
   Van-Anh Nguyen*, <b>Dai Quoc Nguyen</b>*, Van Nguyen, Trung Le, Quan Hung Tran and Dinh Phung. <b>2022</b>. 
   <a href="https://arxiv.org/abs/2110.07317" target="_blank">ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection</a>. 
-  In <i> Proceedings of the 44th International Conference on Software Engineering: Demonstrations</i> (ICSE).
+  In <i>Proceedings of the 44th International Conference on Software Engineering: Demonstrations</i> (ICSE).
   <a href="https://github.com/daiquocnguyen/GNN-ReGVD" target="_blank">[Code]</a>
 </li>
   
@@ -67,11 +82,6 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <ul>
  
 <li style="margin-top:0.5em;text-align:justify">
-  <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
-  <a href="https://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>. <i> arXiv preprint arXiv:2009.12517</i>. <a href="https://github.com/daiquocnguyen/QuatRE/" target="_blank">[Code]</a>
-</li>
- 
-<li style="margin-top:0.5em;text-align:justify">
  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2020</b>. 
   <a href="https://arxiv.org/pdf/1911.04822.pdf" target="_blank">A Capsule Network-based Model for Learning Node Embeddings</a>. 
   In <i>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</i> (CIKM).
@@ -97,14 +107,6 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> <b>[2019]</b> </span>
 
 <ul>
-
-<li style="margin-top:0.5em;text-align:justify">
-  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
-  <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Self-Attention Network for Graph Classification</a>. 
-  <i> arXiv preprint arXiv:1909.11855</i>. 
-  <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">[Code]</a>
-</li>
-
 
 <li style="margin-top:0.5em;text-align:justify">
   <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2019</b>. 
