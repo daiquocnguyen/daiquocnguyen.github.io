@@ -14,24 +14,24 @@ Up-to-date papers at my [Google Scholar profile](https://scholar.google.com/cita
 <ul>
   
 <li style="margin-top:0.5em;text-align:justify">
-  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2019</b>. 
+  <b>Dai Quoc Nguyen</b>, Tu Dinh Nguyen and Dinh Phung. <b>2022</b>. 
   <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Graph Transformer Self-Attention Networks</a>. 
-  In <i>Proceedings of the Web Conference: Poster and Demo Track</i> (WWW 2022). 
+  In <i>Companion Proceedings of the Web Conference</i> (WWW '22 Companion). 
   <a href="https://github.com/daiquocnguyen/Graph-Transformer" target="_blank">[Code]</a>
 </li>
 
   
 <li style="margin-top:0.5em;text-align:justify">
-  <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen and Dinh Phung. <b>2020</b>. 
+  <b>Dai Quoc Nguyen</b>, Thanh Vu, Tu Dinh Nguyen and Dinh Phung. <b>2022</b>. 
   <a href="https://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a>. 
-  In <i>Proceedings of the Web Conference: Poster and Demo Track</i> (WWW 2022). 
+  In <i>Companion Proceedings of the Web Conference</i> (WWW '22 Companion). 
   <a href="https://github.com/daiquocnguyen/QuatRE/" target="_blank">[Code]</a>
 </li>
   
 <li style="margin-top:0.5em;text-align:justify">
   Van-Anh Nguyen*, <b>Dai Quoc Nguyen</b>*, Van Nguyen, Trung Le, Quan Hung Tran and Dinh Phung. <b>2022</b>. 
   <a href="https://arxiv.org/abs/2110.07317" target="_blank">ReGVD: Revisiting Graph Neural Networks for Vulnerability Detection</a>. 
-  In <i>Proceedings of the 44th International Conference on Software Engineering: Demonstrations</i> (ICSE).
+  In <i>Proceedings of the 44th International Conference on Software Engineering Companion</i> (ICSE '22 Companion).
   <a href="https://github.com/daiquocnguyen/GNN-ReGVD" target="_blank">[Code]</a>
 </li>
   
