@@ -14,6 +14,10 @@ News
 
 <div class="torightc" style="height:500px;overflow:auto;">
 <ul>
+
+<li style="margin-top:0.5em;text-align:justify">
+  [03/2023] Papers <a href="https://arxiv.org/abs/2112.09231" target="_blank">Two-view Graph Neural Networks for Knowledge Graph Completion</a> has been accepted to ESWC 2023.  
+</li>
   
 <li style="margin-top:0.5em;text-align:justify">
   [03/2022] Papers <a href="https://arxiv.org/pdf/1909.11855.pdf" target="_blank">Universal Graph Transformer Self-Attention Networks</a> and <a href="http://arxiv.org/abs/2009.12517" target="_blank">QuatRE: Relation-Aware Quaternions for Knowledge Graph Embeddings</a> have been accepted to the Poster and Demo Track at The ACM Web Conference 2022.  
