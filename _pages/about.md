@@ -16,7 +16,7 @@ News
 <ul>
 
 <li style="margin-top:0.5em;text-align:justify">
-  [03/2023] Papers <a href="https://arxiv.org/abs/2112.09231" target="_blank">Two-view Graph Neural Networks for Knowledge Graph Completion</a> has been accepted to ESWC 2023.  
+  [03/2023] Paper <a href="https://arxiv.org/abs/2112.09231" target="_blank">Two-view Graph Neural Networks for Knowledge Graph Completion</a> has been accepted to ESWC 2023.  
 </li>
   
 <li style="margin-top:0.5em;text-align:justify">
